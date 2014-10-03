@@ -5,55 +5,100 @@ permalink: /
 ---
 
 <div id="service">
-    <div class="container">
-        <div class="row centered">
-            <div class="col-md-4">
-                <i class="fa fa-heart-o"></i>
-                <h4>Handsomely Crafted</h4>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                <p><br/><a href="#" class="btn btn-theme">More Info</a></p>
-            </div>
-            <div class="col-md-4">
-                <i class="fa fa-flask"></i>
-                <h4>Retina Ready</h4>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                <p><br/><a href="#" class="btn btn-theme">More Info</a></p>
-            </div>
-            <div class="col-md-4">
-                <i class="fa fa-trophy"></i>
-                <h4>Quality Theme</h4>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                <p><br/><a href="#" class="btn btn-theme">More Info</a></p>
-            </div>		 				
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h2># 线上服务 </h2>
+      </div>
+    </div>
+    <div class="row centered">
+      <div class="col-md-12">
+        <div class="alert alert-info">
+          由于一些技术和非技术的原因，校内服务器暂时无法上线。我们正与校方积极配合，争取早日重新上线。 
         </div>
-    </div><! --/container -->
+      </div>
+      <div class="col-md-4">
+        <i class="fa fa-linux"></i>
+        <h4>开源镜像源</h4>
+        <p>宕机中 ... ...</p>
+      </div>
+    </div>
+  </div><! --/container -->
 </div><! --/service -->
 
-{% include portfolio.html title="LATEST WORKS" limit=10 %}
-
-<div class="container mtb">
-    <div class="row">
-        <div class="col-lg-4 col-lg-offset-1">
-            <h4>More About Our Agency.</h4>
-            <p>{{ site.about }}</p>
-            <p><br/><a href="{{ "/about/" | prepend: site.baseurl }}" class="btn btn-theme">More Info</a></p>
+<!-- { include portfolio.html title="LATEST WORKS" limit=10 %}-->
+<div class="container">
+  <div class="row">
+    <div id="recent-posts" class="col-md-6">
+      <h2> # 最近文章 </h2> 
+      {% for post in site.categories['blog'] limit:5 %} 
+      <div class="post">
+        <div class="post-title">
+          <a href="{{ post.url | prepend: site.baseurl }}">
+             <h4><i class="fa fa-file-text-o"></i> {{ post.title }}</h4>
+          </a>
         </div>
-
-        <div class="col-lg-3">
-            <h4>Frequently Asked</h4>
-            <div class="hline"></div>
-            {% for post in site.categories['question'] %} 
-                <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></p>
-            {% endfor %}
+        <div class="post-meta">
+          {{post.author}}, {{post.date | date: "%Y-%-m-%-d"}}
         </div>
-
-        <div class="col-lg-3">
-            <h4>Latest Posts</h4>
-            <div class="hline"></div>
-            {% for post in site.categories['blog'] limit:5 %} 
-                <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}.</a></p>
-            {% endfor %} 
+        <div class="post-abstract">
+        {{ post.excerpt | strip_html | truncate: 140, '...'}}
         </div>
+      </div>
+      {% endfor %} 
+    </div>
+    <div id="recent-events" class="col-md-6">
+      <h2> # 活动公告</h2> 
+      {% for event in site.categories['event'] limit:5 %} 
+      <div class="event" data-event-date="{{event.date | date: "%F"}}">
+        <div class="event-title">
+          <a href="{{ event.url | prepend: site.baseurl }}">
+             <h4>{{ event.title }}</h4>
+          </a>
+        </div>
+        <div class="event-meta">
+          <span><strong>时间: </strong>{{event.date | date: "%F"}}{% if event.time %} {{event.time}} {% endif %}</span>
+          <span><strong>地点:</strong> {{event.place}}</span>
+        </div>
+        <div class="event-abstract">
+        {{ event.excerpt | strip_html | truncate: 140, '...'}}
+        </div>
+      </div>
+      {% endfor %} 
+    </div>
+  </div>
+</div>
 
-    </div><! --/row -->
-</div><! --/container -->
+<script type="text/javascript">
+$(document).ready(function(){
+  var today = function() { 
+    var pad = function (number) {
+      var r = String(number);
+      if ( r.length === 1 ) {
+        r = '0' + r;
+      }
+      return r;
+    }
+
+    var _today = new Date();
+    return Date.parse(
+      _today.getFullYear().toString() + "-"
+      + pad(_today.getMonth()+1) + "-"
+      + pad(_today.getDate())
+    );
+
+  }();
+
+  $('#recent-events .event').each(function() {
+    console.log($(this).attr("data-event-date"));
+    var event_date = Date.parse($(this).attr("data-event-date")),
+        label = "";
+    if (today > event_date) {
+      label = "<span class='label label-info'>Finished</span>";
+    } else {
+      label = "<span class='label label-warning'>Upcomming</span>";
+    }
+    $(this).find(".event-meta").append(label);
+  });
+});
+</script>

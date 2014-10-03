@@ -2,28 +2,46 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-4">
-                <h4>About</h4>
-                <div class="hline-w"></div>
                 <p>{{ site.about }}</p>
             </div>
+
             <div class="col-lg-4">
-                <h4>Social Links</h4>
-                <div class="hline-w"></div>
-                <p>
-                    {% for network in site.social %}
-                        <a href="{{ network.url }}" class="btn-social btn-outline"><i class="fa fa-{{ network.title }}"></i></a>
-                    {% endfor %}
-                </p>
+              <h4>Contact Us</h4>
+              <div>
+                <ul class="social">
+                  <li>
+                    <a href="https://groups.google.com/forum/#!forum/tuna-general"><i class="fa fa-envelope"></i> Mailing List</a>
+                  </li>
+                  <li>
+                    IRC: #tuna
+                  </li>
+                  <li>
+                    <a href="https://secure.flickr.com/groups/tuna/"><i class="fa fa-flickr"></i> Flickr</a>
+                  </li>
+                </ul>
+              </div>
             </div>
+
             <div class="col-lg-4">
-                <h4>Our Bunker</h4>
-                <div class="hline-w"></div>
-                <p>
-                    {% for line in site.address.first.lines %}
-                        {{ line }} <br>
-                    {% endfor %}
-                </p>
+              <img class="img-responsive" src="{{ "/assets/img/logo-white.png" | prepend: site.baseurl }}" />
             </div>
+            <!--
+            <div class="col-lg-4">
+                <h4>Recent Events</h4>
+                <div class="hline-w"></div>
+                {% for post in site.categories['event'] limit:5 %} 
+                    <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></p>
+                {% endfor %}
+            </div>
+
+            <div class="col-lg-4">
+                <h4>Latest Posts</h4>
+                <div class="hline-w"></div>
+                {% for post in site.categories['blog'] limit:5 %} 
+                    <p><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}.</a></p>
+                {% endfor %} 
+            </div>
+            -->
         </div><! --/row -->
     </div><! --/container -->
 </div><! --/footerwrap -->
