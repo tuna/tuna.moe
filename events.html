@@ -1,0 +1,79 @@
+---
+layout: events
+title: Events
+permalink: /events/
+---
+
+<div class="container mtb">
+  <div class="row">
+
+    <! -- BLOG POSTS LIST -->
+    <div class="col-lg-10 col-lg-offset-1" id="events-list">
+
+      {% for event in site.categories['event'] %}
+      <! -- Blog Post -->
+      <div class="row event" data-event-date="{{event.date | date: "%F"}}">
+        <div class="col-lg-9">
+          <div class="event-title">
+            <a href="{{ event.url | prepend: site.baseurl }}"><h3 class="ctitle">{{ event.title }}</h3></a>
+          </div>
+          <div class="event-meta">
+            <span><strong><i class="fa fa-calendar"></i> 时间: </strong>{{event.date | date: "%F"}}{% if event.time %} {{event.time}} {% endif %}</span>
+            <span><strong><i class="fa fa-map-marker"></i> 地点:</strong> {{event.place}}</span>
+            <span class="event-tags">
+              {% for tag in event.tags %}
+              <span class="label label-success">{{tag}}</span>
+              {% endfor %}
+            </span>
+          </div>
+          <div class="event-content">
+            {{ event.excerpt }}
+          </div>
+          <p><a href="{{ event.url | prepend: site.baseurl }}">[Read More]</a></p>
+        </div>
+
+        <div class="col-lg-3">
+          <img class="img-responsive event-poster" src="{%if event.poster contains 'http:' or event.poster contains 'https:'%}{{event.poster}}{%else%}{{"/assets/img/events/"|prepend: site.baseurl}}{{event.poster}}{%endif%}" />
+        </div>
+
+      </div>
+
+      <div class="hline"></div>
+      <div class="spacing"></div>
+      {% endfor %}
+
+    </div><! --/col-lg-8 -->
+
+  </div><! --/row -->
+</div><! --/container -->
+
+<script type="text/javascript">
+$(document).ready(function(){
+  var today = function() { 
+    var pad = function (number) {
+      var r = String(number);
+      if ( r.length === 1 ) {
+        r = '0' + r;
+      }
+      return r;
+    }
+
+    var _today = new Date();
+    return Date.parse(
+      _today.getFullYear().toString() + "-"
+      + pad(_today.getMonth()+1) + "-"
+      + pad(_today.getDate())
+    );
+
+  }();
+
+  $('#events-list .event').each(function() {
+    console.log($(this).attr("data-event-date"));
+    var event_date = Date.parse($(this).attr("data-event-date"));
+    if (today < event_date) {
+      var label = "<span class='label label-warning'>Upcoming</span>";
+      $(this).find(".event-tags").prepend(label);
+    }
+  });
+});
+</script>

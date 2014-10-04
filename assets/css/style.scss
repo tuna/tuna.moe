@@ -31,10 +31,10 @@ $color_navbar_bg: #d3d3d3;
 /*	################################################################
 	1. GENERAL STRUCTURES
 ################################################################# */
-	* { 
-		margin: 0;
-		padding: 0px;
-	} 
+* { 
+	margin: 0;
+	// padding: 0px;
+} 
 
 body { 
 	background: #ffffff; 
@@ -48,6 +48,10 @@ body {
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Raleway', sans-serif;
 	font-weight: 700;
+}
+
+ul {
+  padding-left: 1em;
 }
 
 p { 
@@ -267,6 +271,13 @@ a:focus {
     margin-bottom: .5em; 
   }
 }
+
+.event-meta {
+  span {
+    margin-right: 1em; 
+  }
+}
+
 #recent-events {
   .event {
     padding-bottom: 1em; 
@@ -386,4 +397,18 @@ csmall {
 .share i {
 	padding-right: 15px;
 	font-size: 18px;
+}
+
+/* Event Page */
+#events-list {
+  .row {
+    margin-bottom: 1em; 
+  }
+  .event-title h3 {
+    margin-top: 0;
+  }
+  .event-meta {
+    font-size: 1.1em;
+    margin-bottom: 2em; 
+  }
 }

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: event
 title: "2014 秋季百团大战"
 date: 2014-10-09
 time: 10:00 - 18:00
@@ -9,7 +9,7 @@ categories:
   - event
 tags:
   - tuna
-poster: sfd2014.jpg
+poster: http://www.tuna.moe/assets/img/logo.png
 ---
 
 百团大战开始啦!

@@ -15,6 +15,7 @@
         <li {% if page.title == "Home" %}class="active"{% endif %}><a href="{{"/" | prepend: site.baseurl }}">HOME</a></li>
         <li {% if page.title == "Events" or page.categories contains "event"  %}class="active"{% endif %}><a href="{{"/events/" | prepend: site.baseurl }}">EVENTS</a></li>
         <li {% if page.title == "Blog" or page.categories contains "blog" %}class="active"{% endif %}><a href="{{"/blog/" | prepend: site.baseurl }}">BLOG</a></li>
+        <li><a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a></li>
         <li><a href="http://mirrors.tuna.tsinghua.edu.cn/">MIRRORS</a></li>
       </ul>
     </div><!--/.nav-collapse -->

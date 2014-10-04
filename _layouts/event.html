@@ -1,0 +1,35 @@
+---
+layout: default
+---
+
+<!-- { include wrap.html %} -->
+
+<div class="container mtb">
+    <div class="row">
+        <! -- SINGLE POST -->
+        <div class="col-lg-8 col-lg-offset-2">
+            <! -- Blog Post  -->
+            <a href="{{ page.url | prepend: site.baseurl }}"><h3 class="ctitle">{{ page.title }}</h3></a>
+            <div class="event-meta">
+              <span><strong><i class="fa fa-calendar"></i> 时间: </strong>{{page.date | date: "%F"}}{% if page.time %} {{page.time}} {% endif %}</span>
+              <span><strong><i class="fa fa-map-marker"></i> 地点:</strong> {{page.place}}</span>
+              <span class="event-tags">
+                {% for tag in page.tags %}
+                <span class="label label-success">{{tag}}</span>
+                {% endfor %}
+              </span>
+            </div>
+              
+            {{ content }}
+
+            <div class="spacing"></div>
+            <!-- <h6>SHARE:</h6>
+            <p class="share">
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-tumblr"></i></a>
+                <a href="#"><i class="fa fa-google-plus"></i></a>		 		
+            </p> -->
+        </div><! --/col-lg-8 -->
+    </div><! --/row -->
+</div><! --/container -->

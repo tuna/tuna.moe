@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: event
 title: "BLUG 10月聚会"
 date: 2014-10-14
 time: "19:00"
@@ -9,7 +9,7 @@ categories:
   - event
 tags:
   - blug
-poster: sfd2014.jpg
+poster: blug.png
 ---
 
 While last month was busy with Software Freedom Day and Guest In Town events,

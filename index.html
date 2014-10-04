@@ -46,9 +46,12 @@ permalink: /
         </div>
       </div>
       {% endfor %} 
+      <div>
+        <a href={{"/blog/"|prepend: site.baseurl}}><i class="fa fa-hand-o-right"></i> 所有文章</a>
+      </div>
     </div>
     <div id="recent-events" class="col-md-6">
-      <h2> # 活动公告</h2> 
+      <h2> # 活动公告 </h2> 
       {% for event in site.categories['event'] limit:5 %} 
       <div class="event" data-event-date="{{event.date | date: "%F"}}">
         <div class="event-title">
@@ -65,6 +68,9 @@ permalink: /
         </div>
       </div>
       {% endfor %} 
+      <div>
+        <a href={{"/events/"|prepend: site.baseurl}}><i class="fa fa-hand-o-right"></i> 所有活动</a>
+      </div>
     </div>
   </div>
 </div>
