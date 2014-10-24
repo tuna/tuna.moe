@@ -11,7 +11,7 @@ url: "http://www.tuna.moe"
 markdown: kramdown
 permalink: /:categories/:year/:title
 excerpt_separator: <!--more--> #use this in posts to define how long the excerpt of the post (that is shown on the Blog page) is
-gems: [jekyll-sass]
+highlighter: pygments
 
 ### CONTACT SETTINGS ###
 
@@ -91,7 +91,7 @@ gems: [jekyll-sass]
 #     img: client04.png
     
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
-about: "清华大学TUNA协会最初叫清华大学学生网管会，其前身为清华大学电脑协会，是由清华大学网络技术和开源软件爱好者、技术宅组成的团体。"
+about: "清华大学 TUNA 协会最初叫清华大学学生网管会，其前身为清华大学电脑协会，是由清华大学网络技术和开源软件爱好者、技术宅组成的团体。"
 
 # Testimonial content. Shown on Home and About page. 
 # testimonial:
