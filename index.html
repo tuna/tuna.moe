@@ -11,20 +11,15 @@ permalink: /
         <h2># 线上服务 </h2>
       </div>
     </div>
-    <div class="row centered">
-      <div class="col-md-12">
-        <div class="alert alert-info">
-          校内线上服务目前无法正常运行，我们正积极恢复，争取早日重新上线。
-        </div>
-      </div>
+    <div class="row centered" id="service-list">
       <div class="col-md-4">
-        <i class="fa fa-linux"></i>
-        <h4>开源镜像源</h4>
-        <p>宕机中 ... ...</p>
+        <img src="{{ "/assets/img/service/mirrors.png" | prepend: site.baseurl }}" />
+        <h4>开源镜像源 <a href="http://mirrors.tuna.tsinghua.edu.cn/"><i class="fa fa-hand-o-right"></i></a></h4>
+        <p>苏醒中 ... ...</p>
       </div>
     </div>
-  </div><! --/container -->
-</div><! --/service -->
+  </div><!--/container -->
+</div><!--/service -->
 
 <!-- { include portfolio.html title="LATEST WORKS" limit=10 %}-->
 <div class="container">
@@ -96,7 +91,7 @@ $(document).ready(function(){
   }();
 
   $('#recent-events .event').each(function() {
-    console.log($(this).attr("data-event-date"));
+    // console.log($(this).attr("data-event-date"));
     var event_date = Date.parse($(this).attr("data-event-date")),
         label = "";
     if (today > event_date) {
