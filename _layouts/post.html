@@ -11,9 +11,9 @@ layout: default
             <! -- Blog Post  -->
             <a href="{{ page.url | prepend: site.baseurl }}"><h3 class="ctitle">{{ page.title }}</h3></a>
             <p><csmall>{{ page.date | date: "%b %-d, %Y" }}. | By: {{ page.author }}</csmall></p>
-              
+            <div class="post-content"> 
             {{ content }}
-
+            </div>
             <div class="spacing"></div>
             <!-- <h6>SHARE:</h6>
             <p class="share">
