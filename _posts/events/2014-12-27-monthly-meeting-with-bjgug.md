@@ -25,6 +25,8 @@ poster: http://www.tuna.moe/assets/img/logo.png
 - 王殿进: youknowwhat.org
 - Justin: 白雪公主和 OSI 七层模型的故事
 
+<!-- more -->
+
 At the end of 2014, TUNA and Beijing GNOME User Group together hold our last meeting for this year, the topics
 of this event includes:
 
