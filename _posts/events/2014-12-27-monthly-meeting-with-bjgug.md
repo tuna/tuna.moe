@@ -21,7 +21,7 @@ poster: http://www.tuna.moe/assets/img/logo.png
 
 目前的演讲题目有：
 
-- 比尔盖子: Linux Tips
+- 比尔盖子: Linux Tips 与龙芯大折腾
 - 王殿进: youknowwhat.org
 - Justin: 白雪公主和 OSI 七层模型的故事
 
@@ -30,7 +30,7 @@ poster: http://www.tuna.moe/assets/img/logo.png
 At the end of 2014, TUNA and Beijing GNOME User Group together hold our last meeting for this year, the topics
 of this event includes:
 
-* Linux Tips (by 比尔盖子)
+* Linux Tips & Experience on Loongson (by 比尔盖子)
 * A YouKnowWhat Project (by 王殿进)
 * Snow White and the Seven-layer Model (by Justin)
 
