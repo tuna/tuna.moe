@@ -46,6 +46,8 @@ Time and Location:
 
 路线地图:
 
+Tip: 进二校门后右转上坡，一楼上书「水利寔驗管」便是旧水。
+
 ![](/assets/img/events/jiushui-map.png)
 
 
