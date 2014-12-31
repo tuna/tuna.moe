@@ -12,20 +12,25 @@ permalink: /
       </div>
     </div>
     <div class="row centered" id="service-list">
-      <div class="col-md-2 col-sm-4">
+      <div class="col-md-2 col-sm-3 col-xs-6">
         <a href="http://mirrors.tuna.tsinghua.edu.cn/"><img src="{{ "/assets/img/service/mirrors.png" | prepend: site.baseurl }}" /></a>
-        <h4>开源镜像仓库 <a href="http://mirrors.tuna.tsinghua.edu.cn/"><i class="fa fa-hand-o-right"></i></a></h4>
+        <h4>开源镜像站 <a href="http://mirrors.tuna.tsinghua.edu.cn/"><i class="fa fa-hand-o-right"></i></a></h4>
         <p>我们回来了</p>
       </div>
-      <div class="col-md-2 col-sm-4">
+      <div class="col-md-2 col-sm-3 col-xs-6">
         <a href="{{ "/irc/" | prepend: site.baseurl }}"><img src="{{ "/assets/img/service/web-irc.png" | prepend: site.baseurl }}" /></a>
         <h4>IRC 聊天室 <a href="{{ "/irc/" | prepend: site.baseurl }}"><i class="fa fa-hand-o-right"></i></a></h4>
         <p>来这里灌水</p>
       </div>
-      <div class="col-md-2 col-sm-4">
+      <div class="col-md-2 col-sm-3 col-xs-6">
         <a href="https://wiki.tuna.tsinghua.edu.cn/"><img src="{{ "/assets/img/service/moinmoin.png" | prepend: site.baseurl }}" /></a>
         <h4>Wiki <a href="https://wiki.tuna.tsinghua.edu.cn/"><i class="fa fa-hand-o-right"></i></a></h4>
         <p>积累的力量</p>
+      </div>
+      <div class="col-md-2 col-sm-3 col-xs-6">
+        <a href="https://issues.tuna.tsinghua.edu.cn/"><img src="{{ "/assets/img/service/issues.png" | prepend: site.baseurl }}" /></a>
+        <h4>Issues <a href="https://issues.tuna.tsinghua.edu.cn/"><i class="fa fa-hand-o-right"></i></a></h4>
+        <p>Bug 提交/意见反馈</p>
       </div>
     </div>
   </div><!--/container -->
@@ -34,28 +39,7 @@ permalink: /
 <!-- { include portfolio.html title="LATEST WORKS" limit=10 %}-->
 <div class="container">
   <div class="row">
-    <div id="recent-posts" class="col-md-6">
-      <h2> # 最近文章 </h2> 
-      {% for post in site.categories['blog'] limit:5 %} 
-      <div class="post">
-        <div class="post-title">
-          <a href="{{ post.url | prepend: site.baseurl }}">
-             <h4><i class="fa fa-file-text-o"></i> {{ post.title }}</h4>
-          </a>
-        </div>
-        <div class="post-meta">
-          {{post.author}}, {{post.date | date: "%Y-%-m-%-d"}}
-        </div>
-        <div class="post-abstract">
-        {{ post.excerpt | strip_html | truncate: 140, '...'}}
-        </div>
-      </div>
-      {% endfor %} 
-      <div>
-        <a href={{"/blog/"|prepend: site.baseurl}}><i class="fa fa-hand-o-right"></i> 所有文章</a>
-      </div>
-    </div>
-    <div id="recent-events" class="col-md-6">
+    <div id="recent-events" class="col-md-6 col-md-push-6">
       <h2> # 活动公告 </h2> 
       {% for event in site.categories['event'] limit:5 %} 
       <div class="event" data-event-date="{{event.date | date: "%F"}}">
@@ -69,12 +53,33 @@ permalink: /
           <span><strong>地点:</strong> {{event.place}}</span>
         </div>
         <div class="event-abstract">
-        {{ event.excerpt | strip_html | truncate: 140, '...'}}
+        {{ event.excerpt | strip_html | truncate: 240, '...'}}
         </div>
       </div>
       {% endfor %} 
       <div>
         <a href={{"/events/"|prepend: site.baseurl}}><i class="fa fa-hand-o-right"></i> 所有活动</a>
+      </div>
+    </div>
+    <div id="recent-posts" class="col-md-6 col-md-pull-6">
+      <h2> # 最近文章 </h2> 
+      {% for post in site.categories['blog'] limit:5 %} 
+      <div class="post">
+        <div class="post-title">
+          <a href="{{ post.url | prepend: site.baseurl }}">
+             <h4><i class="fa fa-file-text-o"></i> {{ post.title }}</h4>
+          </a>
+        </div>
+        <div class="post-meta">
+          {{post.author}}, {{post.date | date: "%Y-%-m-%-d"}}
+        </div>
+        <div class="post-abstract">
+        {{ post.excerpt | strip_html | truncate: 240, '...'}}
+        </div>
+      </div>
+      {% endfor %} 
+      <div>
+        <a href={{"/blog/"|prepend: site.baseurl}}><i class="fa fa-hand-o-right"></i> 所有文章</a>
       </div>
     </div>
   </div>
