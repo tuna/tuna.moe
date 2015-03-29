@@ -23,7 +23,7 @@ permalink: /blog/
           <p><a href="{{ post.url | prepend: site.baseurl }}">[Read More]</a></p>
         </div>
         <div class="col-lg-3">
-          <img class="img-responsive" src="{%if post.thumb contains 'http:' or post.thumb contains 'https:'%}{{post.thumb}}{%else%}{{"/assets/img/blog/thumbs/"|prepend: site.baseurl}}{{post.thumb}}{%endif%}" />
+          <img class="img-responsive" src="{%if post.thumb contains 'http:' or post.thumb contains 'https:'%}{{post.thumb}}{%else%}{{"/assets/img/blog/"|prepend: site.baseurl}}{{post.thumb}}{%endif%}" />
         </div>
       </div>
       <div class="hline"></div>
