@@ -398,7 +398,7 @@ csmall {
 	
 .popular-posts li em {
 	font-size: 12px;
-	color: #b3b3b3
+	color: #b3b3b3;
 	}
 
 .popular-posts p {
@@ -424,3 +424,17 @@ csmall {
     margin-bottom: 2em; 
   }
 }
+
+#join-button {
+	z-index: 1000;
+	position: fixed;
+	bottom: 0;
+	padding: 10px 0;
+	background-color: #fafafa;
+	border-top: 1px solid #aaa;
+	a {
+		font-weight: bold;
+	}
+}
+
+// vim: ts=2 sts=2 sw=2 noexpandtab
