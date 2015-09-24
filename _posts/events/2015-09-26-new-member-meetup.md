@@ -8,8 +8,9 @@ author: Justin Wong
 categories:
   - event
 tags:
-  - tuna
-poster: http://www.tuna.moe/assets/img/logo.png
+  - sfd
+  - talks
+poster: SFD2015.png
 ---
 
 欢迎各位新同学加入 TUNA，本学期新成员见面会将于 9 月 26 日（星期六）晚 19:20 在**旧水-303**进行。
@@ -26,7 +27,7 @@ poster: http://www.tuna.moe/assets/img/logo.png
 Welcome to TUNA, we have a welcome-meeting for our new members.
 
 - Date&Time: Sept. 26 (Saturday) 19:20
-- Location: Old Hydraulic Engineering Bld.  (See the map below)
+- Location: Room 303, Old Hydraulic Engineering Bld.  (See the map below)
 
 On this meeting, we're gonna
 
@@ -37,8 +38,8 @@ On this meeting, we're gonna
 
 We also bought mooncakes, the traditional food for mid-autumn festival, for this meeting.
 
-**Map**:  <a class="visible-xs" href="http://www.openstreetmap.org/?mlat=40.00052&amp;mlon=116.31962#map=18/40.00052/116.31962">click me</a>
+**Map**: 
 
-<iframe class="hidden-xs" width="600" height="450" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://www.openstreetmap.org/export/embed.html?bbox=116.31514728069304%2C39.99864886305196%2C116.32408440113068%2C40.00238837283399&amp;layer=mapnik&amp;marker=40.00051864354287%2C116.31961584091187" style="border: 1px solid black"></iframe>
+<a href="/assets/img/events/jiushui-map-2.jpg"><img src="/assets/img/events/jiushui-map-2.jpg" /></a>
 
-<a class="hidden-xs" href="http://www.openstreetmap.org/?mlat=40.00052&amp;mlon=116.31962#map=18/40.00052/116.31962">View Larger Map</a>
+- [OpenStreetMap](https://www.openstreetmap.org/?mlat=40.00052&amp;mlon=116.31962#map=18/40.00052/116.31962) 
