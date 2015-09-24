@@ -8,9 +8,8 @@ author: Justin Wong
 categories:
   - event
 tags:
-  - sfd
-  - talks
-poster: SFD2015.png
+  - tuna
+poster: http://www.tuna.moe/assets/img/logo.png
 ---
 
 欢迎各位新同学加入 TUNA，本学期新成员见面会将于 9 月 26 日（星期六）晚 19:20 在**旧水-303**进行。
