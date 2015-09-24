@@ -2,7 +2,7 @@
 layout: event
 title: "新成员欢迎会 Welcome Meeting"
 date: 2015-09-26
-time: 19:20-21:00
+time: 19:20 - 21:00
 place: 旧水303
 author: Justin Wong
 categories:
