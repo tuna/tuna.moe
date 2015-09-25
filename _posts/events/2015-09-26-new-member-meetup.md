@@ -13,7 +13,7 @@ tags:
 poster: SFD2015.png
 ---
 
-欢迎各位新同学加入 TUNA，本学期新成员见面会将于 9 月 26 日（星期六）晚 19:20 在**旧水-303**进行。
+欢迎各位新同学加入 TUNA，本学期共有 33 位同学加入，新成员见面会将于 9 月 26 日（星期六）晚 19:20 在**旧水-303**进行。
 
 本次活动主要内容包括:
 
@@ -29,7 +29,7 @@ Welcome to TUNA, we have a welcome-meeting for our new members.
 - Date&Time: Sept. 26 (Saturday) 19:20
 - Location: Room 303, Old Hydraulic Engineering Bld.  (See the map below)
 
-On this meeting, we're gonna
+During this meeting, we're gonna
 
 - Introduce ourselves and make friends with each other
 - Introduce TUNA, including its history, events and interesting projects
