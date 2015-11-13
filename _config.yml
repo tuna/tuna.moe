@@ -5,13 +5,17 @@ title: "清华大学 TUNA 协会"
 brand: "清华大学 TUNA 协会"
 description: "前·清华大学网管会"
 baseurl: "" #important: start with /
-url: "http://www.tuna.moe"
+url: "https://www.tuna.moe"
 
 # Build settings
 markdown: kramdown
 permalink: /:categories/:year/:title
 excerpt_separator: <!--more--> #use this in posts to define how long the excerpt of the post (that is shown on the Blog page) is
 highlighter: pygments
+
+sass:
+    sass_dir: assets/css
+
 
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
 about: "清华大学 TUNA 协会原名清华大学学生网管会，其前身为清华大学电脑协会，是由清华大学网络技术和开源软件爱好者、技术宅组成的团体。"
