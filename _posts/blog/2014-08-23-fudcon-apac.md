@@ -7,7 +7,7 @@ categories:
     - blog
     - report
     - fedora
-permalink: /blog/2014/fudcon-apac
+permalink: /blog/2014/fudcon-apac/
 thumb: https://farm3.staticflickr.com/2937/14094258730_09ec6474f0_z.jpg
 ---
 
