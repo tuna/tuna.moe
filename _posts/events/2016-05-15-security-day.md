@@ -3,7 +3,7 @@ layout: event
 title: "物联网时代的安全威胁"
 date: 2016-05-15
 time: 14:00 - 16:00
-place: 五教 5102
+place: 五教 5105
 author: Justin Wong
 categories:
   - event
