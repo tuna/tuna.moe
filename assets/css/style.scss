@@ -50,7 +50,8 @@ body {
 	color: $color_secondary;
 	font-family: $font_default;
 	font-weight: 400;
-	}
+	padding-top: 70px; 
+}
 
 h1, h2, h3, h4, h5, h6 {
 	font-weight: 700;
@@ -66,8 +67,12 @@ p {
 	font-weight: 400;
 	font-size: 14px; 
 	line-height: 24px;
-	color: $color_secondary ; 
+	color: $color_secondary; 
 	margin-top: 10px; 
+}
+
+del {
+	color: lighten($color_secondary, 20);
 }
 
 img {
@@ -438,5 +443,19 @@ csmall {
 		font-size: 18pt;
 	}
 }
+
+
+html.bad {
+	&, body, div {
+		background-color: black !important;
+	}
+	p, .navbar, h1, h2, h3, h4, h5, a, a:visited, a:hover, span {
+		color: #bdffa2 !important;
+	}
+	.navbar-default .navbar-nav > li.active > a {
+		border-bottom: 2px solid #bdffa2 !important;
+	}
+}
+
 
 // vim: ts=2 sts=2 sw=2 noexpandtab
