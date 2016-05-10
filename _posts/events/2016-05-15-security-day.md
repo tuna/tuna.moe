@@ -51,7 +51,7 @@ poster: NSD2016.png
 {% raw %}
 <script type="text/javascript">
 $(document).ready(function(){
-	$("#trick > .btn").click(function(){
+	$("#trick .btn").click(function(){
 		$('html').addClass('bad');
 		$('.navbar-brand').html("<img src='/assets/img/bluelotus.png' />清华大学网络安全技术协会");
 		setTimeout(function(){
