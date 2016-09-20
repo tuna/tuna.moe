@@ -70,6 +70,9 @@ p {
 	color: $color_secondary; 
 	margin-top: 10px; 
 }
+ruby rt {
+	font-size: .7em;
+}
 
 del {
 	color: lighten($color_secondary, 20);
