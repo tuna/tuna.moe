@@ -3,7 +3,7 @@ layout: event
 title: "2017 年 TeX 用户组 Workshop"
 date: 2017-04-01
 time: 19:00 - 21:00
-place: 三教 3200
+place: 三教 3200（三段）
 author: Jason Lau
 categories:
   - event
@@ -28,4 +28,9 @@ TeX，包括其变体 LaTeX，在国际学术界——特别但不限于数学�
 
 ![](/assets/img/events/TeX-workshop-2017.jpg)
 
+[地图]：
+
+![](/assets/img/events/map_t3_neo.png)
+
 [TUNA 直播间]: http://live.tuna.tsinghua.edu.cn
+[地图]: http://www.openstreetmap.org/?mlat=40.00180&mlon=116.32262#map=17/40.00180/116.32262&layers=CN
