@@ -10,6 +10,7 @@ categories:
 tags:
   - OpenStack
   - Container
+poster: OpenStack.png
 ---
 
 与中国信息通信研究院联合举办，由云计算开源产业联盟进行讲座的云计算开源技术公开课，将会由一线的开发工程师，结合实际开发经验，对于云计算中常用的 OpenStack 以及容器技术进行详细讲解。
