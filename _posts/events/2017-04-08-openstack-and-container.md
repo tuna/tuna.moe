@@ -1,6 +1,6 @@
 ---
 layout: event
-title: "OpenStack 与容器技术公开课"
+title: "OpenStack 与容器技术公开课（视频与讲稿）"
 date: 2017-04-08
 time: 14:00 - 17:00
 place: 李兆基大楼 iCenter 一层右侧 B148
@@ -36,6 +36,14 @@ poster: OpenStack.png
 现场还将有互动环节，VR 眼镜作为小礼物赠送。
 
 到不了现场的小伙伴也不必着急，届时，我们将在 [TUNA 直播间]全程视频直播，之后也会提供活动录像。
+
+讲稿：
+1. [Openstack 功能及应用简介](/assets/slides/Openstack-2017/1.pptx)
+2. [OpenStack Keystone 详解](/assets/slides/Openstack-2017/2.ppt)
+3. [Openstack 网络探索 - Neutron 架构初识](/assets/slides/Openstack-2017/3.pptx)
+4. [Docker 容器技术及其在金融行业的应用实践](/assets/slides/Openstack-2017/5.pptx)
+
+活动视频[在这里](https://www.youtube.com/watch?v=jEdJcOT-e2E)。
 
 [地图]：
 
