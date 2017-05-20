@@ -47,7 +47,7 @@ poster: OpenStack.png
 
 4. [Docker 容器技术及其在金融行业的应用实践](/assets/slides/Openstack-2017/5.pptx)
 
-活动视频[在这里](https://www.youtube.com/watch?v=jEdJcOT-e2E)。
+活动视频[在这里](https://youtu.be/jEdJcOT-e2E)。
 
 [地图]：
 
