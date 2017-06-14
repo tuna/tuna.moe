@@ -12,6 +12,7 @@ tags:
   - Debian
   - Linux
   - Release
+poster: debian9relparty.jpg
 ---
 
 **Location:** Lee Shau Kee Science and Technology Building, B-558.
