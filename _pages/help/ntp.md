@@ -33,4 +33,4 @@ NTP (网络时间协议, network time protocol) 是网络中保持时间同步�
 
 ### Windows 客户端配置
 
-Windows XP 及以下版本的配置方式可以参看上海大学 NTP 网站上提供的[教程](http://cms.shu.edu.cn/Default.aspx?alias=cms.shu.edu.cn/ntp)。Windows Vista/7 及以上的配置方式暂缺，请[帮助我们](https://github.com/tuna/mirror-web/)补充文档。
+Windows XP 及以下版本的配置方式可以参看上海大学 NTP 网站上提供的[教程](http://cms.shu.edu.cn/Default.aspx?alias=cms.shu.edu.cn/ntp)。Windows Vista/7 及以上的配置方式暂缺，请[帮助我们](https://github.com/tuna/tuna.moe)补充文档。
