@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+<!-- { include wrap.html %} -->
+
+<div class="container mtb">
+    <div class="row">
+        <! -- SINGLE POST -->
+        <div class="col-lg-12">
+            <! -- Blog Post  -->
+            <a href="{{ page.url | prepend: site.baseurl }}"><h3 class="ctitle">{{ page.title }}</h3></a>
+            <div class="post-content">
+            {{ content }}
+            </div>
+            <div class="spacing"></div>
+        </div><! --/col-lg-8 -->
+    </div><! --/row -->
+</div><! --/container -->
