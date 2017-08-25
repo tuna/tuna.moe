@@ -274,10 +274,15 @@ a:focus {
         font-size: 60px;
         padding: 15px;
     }
-    
+
     #service-list {
-        margin-top: 40px; 
+        margin-top: 40px;
     }
+
+		img.icon {
+			width: 96px;
+			height: 96px;
+		}
 }
 
 #recent-posts {
