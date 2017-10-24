@@ -27,7 +27,7 @@ poster: NSD2017.png
 讲者简介：
 
 - 刘家昌：清华大学网络与开源软件协会（TUNA协会）会长、计算机系本科生，曾在 Google 等著名网络公司实习  
-- 裴中煜：清华大学网络安全技术协会会长、著名网络安全竞赛战队——蓝莲花战队（Blue-Lotus）核心成员、网络研究院硕士生，曾参与多次大型国际 [CTF](https://en.wikipedia.org/wiki/Capture_the_flag#Computer_security) 赛事并获得优异成绩。   
+- 裴中煜：清华大学网络安全技术协会会长、著名网络安全竞赛战队——蓝莲花战队（Blue-Lotus）核心成员、网络研究院硕士生，曾参与多次大型国际 [CTF](https://en.wikipedia.org/wiki/Capture_the_flag#Computer_security) 赛事并获得优异成绩
 - 刘乃嘉：清华大学信息化技术中心信息系统运行室主任，长期负责学校多个核心信息系统的管理、运行与维护  
 - 王康：阿里巴巴安全部移动安全研究专家、TUNA 协会前会长、清华大学校友，曾在多个国际顶级期刊上发表论文，在硬件与移动安全领域有丰富经验
 
