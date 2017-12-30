@@ -19,13 +19,28 @@
           var paused = false;
 
           var $pero = $('#pero');
+          $('body').on('touchstart', function() {
+            paused = false;
+            $('.zhenghun').removeClass('superzhenghun');
+            $('.pero-background').hide();
+          });
+          $pero.on('touchstart', function(e) {
+            paused = true;
+            $('.zhenghun').addClass('superzhenghun');
+            $('.pero-background').show();
+            e.preventDefault();
+            e.stopPropagation();
+          });
           $pero.mouseenter(function() {
             paused = true;
             $('.zhenghun').addClass('superzhenghun');
+            $('.pero-background').show();
           });
+
           $pero.mouseout(function() {
             paused = false;
             $('.zhenghun').removeClass('superzhenghun');
+            $('.pero-background').hide();
           });
 
           var curX = 0;
