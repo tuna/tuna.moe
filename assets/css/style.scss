@@ -32,7 +32,6 @@ $color_navbar_bg: #d3d3d3;
 $font_default: 'Lato', 'Heiti SC', 'Hiragino Sans GB', 'STHeiti', 'Source Han Sans CN', 'WenQuanYi Zen Hei', 'WenQuanYi Micro Hei', '微软雅黑', sans-serif ;
 
 @import "Lato";
-@import "zhenghun";
 @import url("prettyPhoto.css") screen;
 @import url("hoverex-all.css") screen;
 
@@ -42,7 +41,7 @@ $font_default: 'Lato', 'Heiti SC', 'Hiragino Sans GB', 'STHeiti', 'Source Han Sa
 * { 
 	margin: 0;
 	// padding: 0px;
-}
+} 
 
 body { 
 	background: #ffffff; 
