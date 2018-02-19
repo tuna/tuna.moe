@@ -22,6 +22,6 @@ sass:
 future: true
 
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
-about: "清华大学 TUNA 协会原名清华大学学生网管会，注册名清华大学学生网络与开源软件协会，是由清华大学网络技术和开源软件爱好者、技术宅组成的团体。"
+about: "清华大学 TUNA 协会原名清华大学学生网管会，注册名清华大学学生网络与开源软件协会，是由清华大学网络技术和开源软件爱好者、技术宅组成的团体。现阶段向校内外提供开源软件镜像、DNS 解析和 NTP 授时等服务。"
 
 include: ['_pages']
