@@ -15,6 +15,7 @@ DNS666 提供 IPv4 与 IPv6 双栈服务——但无论您选择只使用 IPv4 �
 
 在开始使用这一服务之前，请确保已阅读并理解[使用许可协议](/help/dns-license/)。
 
+<!--
 此外，我们还提供如下的查询服务：
 
 ### DNS over TLS
@@ -24,3 +25,4 @@ DNS over TLS 是一种通过 TLS 加密层次传输 DNS 的协议，规范为 [R
 ### DNS over HTTP(S)
 
 本服务与 [Google DNS-over-HTTPS API](https://developers.google.com/speed/public-dns/docs/dns-over-https) 兼容，服务地址为：`https://dns.tuna.tsinghua.edu.cn/resolve`。
+-->
