@@ -11,7 +11,7 @@ tags:
   - TUNA
   - BJGUG
   - Meeting
-poster: http://www.tuna.moe/assets/img/logo.png
+poster: ../logo.png
 ---
 
 2014 即将过去，在这一年里大家也都蛮拼的，现在就来这里放松一下吧，本年度最后一次聚会，希望各位同学不要错过！

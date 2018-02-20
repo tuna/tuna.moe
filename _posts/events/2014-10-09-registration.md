@@ -9,7 +9,7 @@ categories:
   - event
 tags:
   - tuna
-poster: http://www.tuna.moe/assets/img/logo.png
+poster: ../logo.png
 ---
 
 百团大战开始啦!
