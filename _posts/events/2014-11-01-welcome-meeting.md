@@ -9,7 +9,7 @@ categories:
   - event
 tags:
   - tuna
-poster: http://www.tuna.moe/assets/img/logo.png
+poster: ../logo.png
 ---
 
 本学期共有 57 位新成员加入 TUNA，热烈欢迎！
