@@ -33,4 +33,10 @@ NTP (网络时间协议, network time protocol) 是网络中保持时间同步�
 
 ### Windows 客户端配置
 
-Windows XP 及以下版本的配置方式可以参看上海大学 NTP 网站上提供的[教程](http://cms.shu.edu.cn/Default.aspx?alias=cms.shu.edu.cn/ntp)。Windows Vista/7 及以上的配置方式暂缺，请[帮助我们](https://github.com/tuna/tuna.moe)补充文档。
+Windows XP 及以下版本的配置方式可以参看上海大学 NTP 网站上提供的[教程](http://cms.shu.edu.cn/Default.aspx?alias=cms.shu.edu.cn/ntp)。  
+
+#### Windows 10 客户端配置
+
+在“控制面板 > 时钟、语言和区域 > 日期和时间 > Internet时间 > 更改设置”中勾选“与 Internet 时间服务器同步”，在“服务器”一栏填入 `ntp.tuna.tsinghua.edu.cn`。  
+
+您也可以通过在命令提示符中使用  `w32tm /config /manualpeerlist:ntp.tuna.tsinghua.edu.cn /syncfromflags:manual /update` 来将此服务器设置为您的时间服务器.
