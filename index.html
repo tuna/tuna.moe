@@ -27,6 +27,7 @@ permalink: /
         <h4>网络授时 <a href="{{ "/help/ntp/" | prepend: site.baseurl }}"><i class="fa fa-hand-o-right"></i></a></h4>
         <p>准时准点</p>
       </div>
+{% unless site.isthu %}
       <div class="col-md-3 col-xs-6">
         <a href="https://fishroom.tuna.moe/"><img class="icon" src="{{ "/assets/img/service/fishroom.png" | prepend: site.baseurl }}" /></a>
         <h4>鱼屋 <a href="https://fishroom.tuna.moe/"><i class="fa fa-hand-o-right"></i></a></h4>
@@ -47,6 +48,7 @@ permalink: /
         <h4>活动日历 <a href="{{ "/cal/" | prepend: site.baseurl }}"><i class="fa fa-hand-o-right"></i></a></h4>
         <p>不要错过活动</p>
       </div>
+{% endunless %}
       <div class="col-md-3 col-xs-6">
         <a href="https://github.com/tuna/issues/"><img class="icon" src="{{ "/assets/img/service/issues.png" | prepend: site.baseurl }}" /></a>
         <h4>Issues <a href="https://github.com/tuna/issues/"><i class="fa fa-hand-o-right"></i></a></h4>
