@@ -15,7 +15,6 @@ kramdown:
     hard_wrap: false
 permalink: "/:categories/:year/:title/"
 excerpt_separator: <!--more--> #use this in posts to define how long the excerpt of the post (that is shown on the Blog page) is
-highlighter: pygments
 
 sass:
     sass_dir: assets/css
