@@ -5,6 +5,7 @@ date: 2018-10-27
 time: 19:00-21:00
 place: 三教 1307
 author: Xavier Yao
+video: https://cloud.tsinghua.edu.cn/f/6d5840ca58cc4926b6e2/
 categories:
   - event
 tags:

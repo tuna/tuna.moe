@@ -18,13 +18,29 @@ permalink: /events/
             <a href="{{ event.url | prepend: site.baseurl }}"><h3 class="ctitle">{{ event.title }}</h3></a>
           </div>
           <div class="event-meta">
-            <span><strong><i class="fa fa-calendar"></i> 时间: </strong>{{event.date | date: "%F"}}{% if event.time %} {{event.time}} {% endif %}</span>
+            <span><strong><i class="fa fa-calendar fa-fw"></i> 时间: </strong>{{event.date | date: "%F"}}{% if event.time %} {{event.time}} {% endif %}</span>
             <span><strong><i class="fa fa-map-marker"></i> 地点:</strong> {{event.place}}</span>
             <span class="event-tags">
               {% for tag in event.tags %}
               <span class="label label-success">{{tag}}</span>
               {% endfor %}
             </span>
+            {% if event.video or event.slides or event.youtube or event.audio %}
+            </br>
+            <span><strong><i class="fa fa-cloud-download-alt fa-fw"></i> 资源链接: </strong></span>
+            {% if event.audio %}
+            <a data-toggle="tooltip" title="录音下载" class="label label-info" href="{{event.audio}}" target="_blank"><i class="fa fa-headphones-alt fa-fw"></i></a>
+            {% endif %}
+            {% if event.video %}
+            <a data-toggle="tooltip" title="录像下载" class="label label-info" href="{{event.video}}" target="_blank"><i class="fa fa-video fa-fw"></i></a>
+            {% endif %}
+            {% if event.youtube %}
+            <a data-toggle="tooltip" title="YouTube 在线播放" class="label label-info" href="{{event.youtube}}" target="_blank"><i class="fa fa-youtube fa-fw"></i></a>
+            {% endif %}
+            {% if event.slides %}
+            <a data-toggle="tooltip" title="讲稿下载" class="label label-info" href="{{event.slides}}" target="_blank"><i class="fa fa-file-alt fa-fw"></i></a>
+            {% endif %}
+            {% endif %}
           </div>
           <div class="event-content">
             {{ event.excerpt }}
@@ -51,6 +67,8 @@ permalink: /events/
 
 <script type="text/javascript">
 $(document).ready(function(){
+  $('[data-toggle="tooltip"]').tooltip();
+
   var today = function() {
     var pad = function (number) {
       var r = String(number);

@@ -75,6 +75,22 @@ permalink: /
           <span><strong>地点:</strong> {{event.place}}</span>
           <span id="event-status">
           </span>
+        {% if event.video or event.slides or event.youtube or event.audio %}
+        </br>
+        <span><strong>资源链接: </strong></span>
+        {% if event.audio %}
+        <a data-toggle="tooltip" title="录音下载" class="label label-info" href="{{event.audio}}" target="_blank"><i class="fa fa-headphones-alt fa-fw"></i></a>
+        {% endif %}
+        {% if event.video %}
+        <a data-toggle="tooltip" title="录像下载" class="label label-info" href="{{event.video}}" target="_blank"><i class="fa fa-video fa-fw"></i></a>
+        {% endif %}
+        {% if event.youtube %}
+        <a data-toggle="tooltip" title="YouTube 在线播放" class="label label-info" href="{{event.youtube}}" target="_blank"><i class="fa fa-youtube fa-fw"></i></a>
+        {% endif %}
+        {% if event.slides %}
+        <a data-toggle="tooltip" title="讲稿下载" class="label label-info" href="{{event.slides}}" target="_blank"><i class="fa fa-file-alt fa-fw"></i></a>
+        {% endif %}
+        {% endif %}
         </div>
         <div class="event-abstract">
         {{ event.excerpt | strip_html | truncate: 240, '...'}}
@@ -131,6 +147,8 @@ permalink: /
 
 <script type="text/javascript">
 $(document).ready(function(){
+  $('[data-toggle="tooltip"]').tooltip();
+
   var today = function() { 
     var pad = function (number) {
       var r = String(number);
@@ -162,6 +180,12 @@ $(document).ready(function(){
   });
 });
 </script>
+
+<style>
+  .event-download-button {
+    width: 10px
+  }
+</style>
 
 <!--
 vim: ts=2 sts=2 sw=2 expandtab
