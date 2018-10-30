@@ -11,13 +11,29 @@ layout: default
             <! -- Blog Post  -->
             <a href="{{ page.url | prepend: site.baseurl }}"><h3 class="ctitle">{{ page.title }}</h3></a>
             <div class="event-meta">
-              <span><strong><i class="fa fa-calendar"></i> 时间: </strong>{{page.date | date: "%F"}}{% if page.time %} {{page.time}} {% endif %}</span>
-              <span><strong><i class="fa fa-map-marker"></i> 地点:</strong> {{page.place}}</span>
+              <span><strong><i class="fa fa-calendar fa-fw"></i> 时间: </strong>{{page.date | date: "%F"}}{% if page.time %} {{page.time}} {% endif %}</span>
+              <span><strong><i class="fa fa-map-marker fa-fw"></i> 地点:</strong> {{page.place}}</span>
               <span class="event-tags">
                 {% for tag in page.tags %}
                 <span class="label label-success">{{tag}}</span>
                 {% endfor %}
               </span>
+              {% if page.video or page.slides or page.youtube or page.audio %}
+              </br>
+              <span><strong><i class="fa fa-cloud-download-alt fa-fw"></i> 资源链接: </strong></span>
+              {% if page.audio %}
+              <a data-toggle="tooltip" title="录音下载" class="label label-info" href="{{page.audio}}" target="_blank"><i class="fa fa-headphones-alt fa-fw"></i></a>
+              {% endif %}
+              {% if page.video %}
+              <a data-toggle="tooltip" title="录像下载" class="label label-info" href="{{page.video}}" target="_blank"><i class="fa fa-video fa-fw"></i></a>
+              {% endif %}
+              {% if page.youtube %}
+              <a data-toggle="tooltip" title="YouTube 在线播放" class="label label-info" href="{{page.youtube}}" target="_blank"><i class="fa fa-youtube fa-fw"></i></a>
+              {% endif %}
+              {% if page.slides %}
+              <a data-toggle="tooltip" title="讲稿下载" class="label label-info" href="{{page.slides}}" target="_blank"><i class="fa fa-file-alt fa-fw"></i></a>
+              {% endif %}
+              {% endif %}
             </div>
               
             {{ content }}
@@ -33,3 +49,9 @@ layout: default
         </div><! --/col-lg-8 -->
     </div><! --/row -->
 </div><! --/container -->
+
+<script type="text/javascript">
+  $(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();
+  });
+</script>
