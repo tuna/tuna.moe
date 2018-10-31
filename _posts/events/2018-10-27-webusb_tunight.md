@@ -6,6 +6,7 @@ time: 19:00-21:00
 place: 三教 1307
 author: Xavier Yao
 video: https://cloud.tsinghua.edu.cn/f/6d5840ca58cc4926b6e2/
+slides: /assets/slides/NFC-WebUSB.pdf
 categories:
   - event
 tags:
@@ -13,8 +14,6 @@ tags:
   - frontend
   - nfc
 ---
-
-<a href="https://cloud.tsinghua.edu.cn/f/6d5840ca58cc4926b6e2/">录像下载</a>
 
 如果你是在百团大战的时候加入的 TUNA ，或许还对非常酷炫（也许）的刷卡入会记忆犹新。更加神奇的是，我们最新的系统与读卡设备通信的部分完全是在前端实现的。那么，这到底是个什么黑科技呢？请听宇翔分解。
 
