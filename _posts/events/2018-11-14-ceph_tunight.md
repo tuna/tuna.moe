@@ -1,7 +1,7 @@
 ---
 layout: event
 title: "金枪鱼之夜：Ceph 介绍"
-date: 2018-11-14
+date: 2018-11-17
 time: 19:00-21:00
 place: 三教 1301
 author: Xavier Yao
