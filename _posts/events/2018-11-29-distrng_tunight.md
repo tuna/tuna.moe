@@ -5,10 +5,13 @@ date: 2018-12-01
 time: 19:00-21:00
 place: 三教 1301
 author: Xavier Yao
+video: https://cloud.tsinghua.edu.cn/f/adb437b8eb9449989db9/
+slides: https://cloud.tsinghua.edu.cn/f/30d185bddd964453a6b1/
 categories:
   - event
 tags:
   - tunight
+
 ---
 
 本周的金枪鱼之夜，预览大佬将为大家介绍分布式随机数信标（一个例子是 Blink 学姐做的可信可验证的分布式随机数生成器），欢迎来玩～
