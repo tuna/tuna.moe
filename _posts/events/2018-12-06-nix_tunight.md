@@ -5,6 +5,7 @@ date: 2018-12-08
 time: 19:00-21:00
 place: 三教 1301
 author: Xavier Yao
+slides: https://cloud.tsinghua.edu.cn/d/53afe1658676414fb7c5/
 categories:
   - event
 tags:
