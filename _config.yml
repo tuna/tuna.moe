@@ -5,7 +5,7 @@ title: "清华大学 TUNA 协会"
 brand: "清华大学 TUNA 协会"
 description: "前·清华大学网管会"
 baseurl: "" #important: start with /
-url: "https://www.tuna.moe"
+url: "https://tuna.moe"
 
 # Build settings
 highlighter: rouge
