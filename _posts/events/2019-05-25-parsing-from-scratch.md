@@ -1,7 +1,7 @@
 ---
 layout: event
 title: "金枪鱼之夜：Parsing from scratch"
-date: 2019-05-11
+date: 2019-05-25
 time: 19:00-21:00
 place: 三教 1301
 author: Jiajie Chen
