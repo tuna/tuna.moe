@@ -18,13 +18,16 @@ permalink: /blog/
           <p><csmall>{{ post.date | date: "%b %-d, %Y" }}. | By: {{ post.author }}</csmall></p>
         </div>
 
-        <div class="col-lg-9">
+        
+        <div class="{%if post.thumb%}col-lg-9{%else%}col-log-12{%endif%}">
           {{ post.excerpt }}
           <p><a href="{{ post.url | prepend: site.baseurl }}">[Read More]</a></p>
         </div>
-        <div class="col-lg-3">
-          <img class="img-responsive" src="{%if post.thumb contains 'http:' or post.thumb contains 'https:'%}{{post.thumb}}{%else%}{{"/assets/img/blog/"|prepend: site.baseurl}}{{post.thumb}}{%endif%}" />
-        </div>
+        {% if post.thumb %}
+          <div class="col-lg-3">
+             <img class="img-responsive" src="{%if post.thumb contains 'http:' or post.thumb contains 'https:'%}{{post.thumb}}{%else%}{{"/assets/img/blog/"|prepend: site.baseurl}}{{post.thumb}}{%endif%}" />
+          </div>
+        {% endif %}
       </div>
       <div class="hline"></div>
 
