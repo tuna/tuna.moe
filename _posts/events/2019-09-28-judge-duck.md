@@ -5,6 +5,8 @@ date: 2019-09-28
 time: 19:00-21:00
 place: 法图（廖凯原楼）B104
 author: Shengqi Chen
+slides: https://cloud.tsinghua.edu.cn/f/628f4c7b6b8446b2a56f/
+video: https://cloud.tsinghua.edu.cn/f/d717e22a4ede42ff9112/
 categories:
   - event
 tags:
