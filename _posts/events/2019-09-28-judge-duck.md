@@ -1,7 +1,7 @@
 ---
 layout: event
 title: "金枪鱼之夜——评测鸭：稳定精确的评测系统如何改善编程教育"
-date: 2019-09-25
+date: 2019-09-28
 time: 19:00-21:00
 place: 法图（廖凯原楼）B104
 author: Shengqi Chen
