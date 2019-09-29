@@ -73,7 +73,7 @@ permalink: /
         <div class="event-meta">
           <span><strong>时间: </strong>{{event.date | date: "%F"}}{% if event.time %} {{event.time}} {% endif %}</span>
           <span><strong>地点:</strong> {{event.place}}</span>
-          <span id="event-status">
+          <span class="event-status">
           </span>
         {% if event.video or event.slides or event.youtube or event.audio %}
         <br>
@@ -176,7 +176,7 @@ $(document).ready(function(){
     } else {
       label = "<span class='label label-warning'>Upcoming</span>";
     }
-    $(this).find("#event-status").append(label);
+    $(this).find(".event-status").append(label);
   });
 });
 </script>
