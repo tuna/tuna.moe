@@ -20,3 +20,10 @@ tags:
 
 请再次注意本周的活动时间临时调整到了周五。机会难得，欢迎大家来给康总捧场，学习新姿势！
 
+P.S. 下面是主讲人要求添加的内容：
+
+> 建议带脑子来听
+
+再附上一张希腊 Paxos 岛的风景：
+
+![Paxos Island](/assets/img/events/paxos-island.jpg)
