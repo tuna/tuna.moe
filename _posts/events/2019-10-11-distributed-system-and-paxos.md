@@ -1,7 +1,7 @@
 ---
 layout: event
 title: "金枪鱼之夜：分布式系统与 Paxos 协议"
-date: 2019-09-28
+date: 2019-10-11
 time: 19:00-21:00
 place: 四教 4106
 author: Shengqi Chen
