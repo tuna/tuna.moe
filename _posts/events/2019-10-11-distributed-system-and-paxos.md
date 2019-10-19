@@ -5,6 +5,7 @@ date: 2019-10-11
 time: 19:00-21:00
 place: 四教 4106
 author: Shengqi Chen
+video: https://cloud.tsinghua.edu.cn/f/d9f963cd9aec401787f2/
 categories:
   - event
 tags:

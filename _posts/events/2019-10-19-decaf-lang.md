@@ -5,6 +5,7 @@ date: 2019-10-19
 time: 19:00-21:00
 place: 法图（廖凯原楼）B111
 author: Shengqi Chen
+slides: https://cloud.tsinghua.edu.cn/f/ba66d8d676714b73b565/
 categories:
   - event
 tags:
