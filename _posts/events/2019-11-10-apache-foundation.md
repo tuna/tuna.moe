@@ -16,7 +16,7 @@ tags:
 
 本次报告由清华大学软件学院大数据系统软件国家工程实验室主办，TUNA 协会协办。报告邀请了Apache 基金会秘书长 Craig L Russell（Java对象-关系映射标准JSR12、JSR243负责人）和华为开源能力中心技术专家姜宁（我国多数Apache项目的 mentor），为大家讲述什么是开源文化、如何加入开源社区以及 Apache Way。
 
-由于本次活动需要统计人数后进行场地预定等工作，请有意向参加的 tunars 填写 [此问卷](http://a46ko29kjdw07xjm.mikecrm.com/bSLA1ei)。
+由于本次活动需要统计人数后进行场地预定工作，请有意向参加的 tunars 尽量在 11/3 23:59 前填写 [此问卷](http://a46ko29kjdw07xjm.mikecrm.com/bSLA1ei)。当然，我们随时欢迎你的到来，也希望你能拉上感兴趣的同学/老师一起前来！
 
 关于活动的信息，也可参见 [相关推送](https://mp.weixin.qq.com/s/gWoCuhXRdGQC-sY5PPQ6_A)。
 
