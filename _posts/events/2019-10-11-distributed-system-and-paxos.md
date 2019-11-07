@@ -28,3 +28,5 @@ P.S. 下面是主讲人要求添加的内容：
 再附上一张希腊 Paxos 岛的风景：
 
 ![Paxos Island](/assets/img/events/paxos-island.jpg)
+
+此活动受清华大学学生社团发展支持计划的支持。

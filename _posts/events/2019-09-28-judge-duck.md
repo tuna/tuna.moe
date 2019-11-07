@@ -25,3 +25,5 @@ tags:
 * 地点：法图（廖凯原楼）B104 （请至图书馆东侧下沉广场进入）
 
 ![JudgeDuck](/assets/img/events/judgeduck-medium-centered.png)
+
+此活动受清华大学学生社团发展支持计划的支持。
