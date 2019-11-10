@@ -5,6 +5,8 @@ date: 2019-11-09
 time: 19:00-21:00
 place: 新水 401
 author: Shengqi Chen
+slides: https://cloud.tsinghua.edu.cn/f/4889556d1e924900be7a/
+video: https://cloud.tsinghua.edu.cn/f/3be0733203af413a8054/
 categories:
   - event
 tags:
