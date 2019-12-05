@@ -1,6 +1,6 @@
 ---
 layout: event
-title: "从 Geek 到 Guru——浅谈计算机网络实习 Lab Assignment"
+title: "金枪鱼之夜：从 Geek 到 Guru——浅谈计算机网络实习 Lab Assignment"
 date: 2019-12-07
 time: 19:00-21:00
 place: 法图（廖凯原楼）B104
