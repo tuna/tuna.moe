@@ -5,7 +5,7 @@ date: 2019-12-07
 time: 19:00-21:00
 place: 法图（廖凯原楼）B104
 author: Shengqi Chen
-video: https://cloud.tsinghua.edu.cn/f/e5b5d76dcc3747c38ff2/
+video: https://cloud.tsinghua.edu.cn/f/c19e76c276564cdfbef1/
 categories:
   - event
 tags:
@@ -22,3 +22,6 @@ tags:
 * 地点：法图（廖凯原楼）B104
 
 欢迎一起来玩！
+
+A 站录像：https://www.acfun.cn/v/ac11883805
+B 站录像：https://www.bilibili.com/video/av78443418/
