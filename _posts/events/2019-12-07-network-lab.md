@@ -5,6 +5,7 @@ date: 2019-12-07
 time: 19:00-21:00
 place: 法图（廖凯原楼）B104
 author: Shengqi Chen
+video: https://cloud.tsinghua.edu.cn/f/e5b5d76dcc3747c38ff2/
 categories:
   - event
 tags:
