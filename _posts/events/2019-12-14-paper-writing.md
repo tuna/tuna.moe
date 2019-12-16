@@ -5,7 +5,7 @@ date: 2019-12-14
 time: 19:00-21:00
 place: 法图（廖凯原楼）B113
 author: Shengqi Chen
-video: https://www.acfun.cn/v/ac12027149
+video: https://cloud.tsinghua.edu.cn/f/15a719730e95464bac41/
 slides: https://cloud.tsinghua.edu.cn/f/64e89ee6c23941cdba9e/
 categories:
   - event
