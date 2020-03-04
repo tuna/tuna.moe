@@ -16,4 +16,6 @@ poster: fall_recruitment_2019.jpg
 
 本次招新时间第二周周四（9/19）、周五（9/20）的中午和傍晚。是我们的活动地点在 C 楼西北侧 H23 摊位，欢迎一起来玩！
 
+<!--more-->
+
 ![Location](/assets/img/events/fall_recruitment_2019.jpg)

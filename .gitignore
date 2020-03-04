@@ -3,4 +3,9 @@ _site
 .jekyll-cache/
 Gemfile.lock
 .jekyll-metadata
+*.swp
+*~
+.bundle
+vendor
+.vscode/
 

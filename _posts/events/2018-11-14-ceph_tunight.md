@@ -14,6 +14,8 @@ tags:
 
 Ceph 是一个开源的分布式存储系统，从很久以前大家就很想了解一下，但奶牛老师一直咕咕咕 XD。但好消息是，本周六，熟读 Ceph 源码、精通存储系统的沈导 EXCALIBUR 将为大家介绍 Ceph。还是老时间、老地点，欢迎来玩～
 
+<!--more-->
+
 地图：
 
 ![](/assets/img/events/map_t3_sec1.jpg)

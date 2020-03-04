@@ -23,6 +23,8 @@ In [Debian] Stretch Release Party, Debian Project Leader **Chris Lamb** is invit
 
 Debian 项目具有二十多年的历史，作为全球最大的开源社区协作项目之一，为全世界用户带来了高质量、自由开放源代码的操作系统平台，并成为了 Ubuntu 等流行自由操作系统的基础。
 
+<!--more-->
+
 本次活动在新版本发布当日举行，庆祝新版 Debian 的发布、总结过去数年的开发内容并对自由软件和自由操作系统的未来进行展望。
 
 * When: June 17, 14:00 CST (UTC+8)

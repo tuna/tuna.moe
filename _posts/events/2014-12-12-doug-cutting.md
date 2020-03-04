@@ -14,6 +14,8 @@ poster: doug_cutting.jpg
 
 Hadoop 之父、Apache 软件基金会主席 Doug Cutting 12月12日下午来清华访问，就 大数据、分布式系统、开源社区建设 等话题与清华师生交流。
 
+<!--more-->
+
 Abstract: The Data Revolution is well underway.  Driven by Moore's law and open source, a newstyle of data computing is on the rise with Apache Hadoop at its core. The Enterprise Data Hub is the new home for data applications.  Doug will  talk about the roots of this revolution,howit's unfolding and where it's headed.
 
 Biography: Doug Cutting is an advocate and creator of open-source search technology. He originated Lucene and, with Mike Cafarella, Nutch, both open-source search technology projects which are now managed through the Apache Software Foundation. He is also the creator of Hadoop. Doug is chief architect  of Cloudera, the leading vendor  of enterprise data hub powered by Apache Hadoop.
