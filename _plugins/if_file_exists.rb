@@ -68,12 +68,6 @@ module Liquid
       @blocks.push(block)
       block.attach(BlockBody.new)
     end
-
-    class ParseTreeVisitor < Liquid::ParseTreeVisitor
-      def children
-        @node.blocks
-      end
-    end
   end
 end
 
