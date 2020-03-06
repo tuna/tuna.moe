@@ -11,6 +11,8 @@ permalink: /blog/2018/tunight-lite/
 
 临近开学的一个周末，我们回到了久违多年的盒子咖啡馆，举办了一场自由讨论的 tunight-lite。说是“小聚”，结果来了20多位同学，差点把咖啡馆挤爆2333。事实表明 Geek 们也是需要 social 的XD。
 
+<!--more-->
+
 ￼![](/assets/img/blog/2018/tn-lite-1.jpg)
 
 活动开始后，大家自发组成了好多个 workshop。渣渣如我只能一会儿听听这个一会儿听听那个了 XD。
