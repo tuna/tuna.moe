@@ -18,13 +18,13 @@ jobs:
           tunathu/mirror-web:latest jekyll build --future
       - name: Commit and publish
         env: 
-          GITHUB_TOKEN: ${{ secrets.GITHUB_ACCESS_TOKEN }}
-          GITHUB_REPOSITORY: ${{ secrets.GITHUB_PUBLISH_REPOSITORY }}
+          GITHUB_ACCESS_TOKEN: ${{ secrets.GITHUB_ACCESS_TOKEN }}
+          GITHUB_PUBLISH_REPOSITORY: ${{ secrets.GITHUB_PUBLISH_REPOSITORY }}
           GITHUB_ACTOR: ${{ secrets.GITHUB_ACTOR }}
         run: |
-          remote_repo="https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          remote_repo="https://x-access-token:${GITHUB_ACCESS_TOKEN}@github.com/${GITHUB_PUBLISH_REPOSITORY}.git"
           remote_branch="master"
-          mkdir ../site_remote && cd ../site_remote
+          mkdir _site_remote && cd _site_remote
           git init
           git config user.name "${GITHUB_ACTOR}"
           git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
