@@ -34,6 +34,7 @@ jobs:
           git rm -rf .
           git clean -fxd
           cp -a ../_site/* ./
+          touch .nojekyll
           git add .
           git commit -m "Github Action auto build for https://github.com/tuna/tuna.moe/commit/${git_commit_id}"
           git push -u origin $remote_branch
