@@ -29,8 +29,8 @@ jobs:
           git config user.name "${GITHUB_ACTOR}"
           git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
           git remote add origin $remote_repo
-          git pull origin master
+          git pull origin $remote_branch
           cp -a ../_site/* ./
           git add .
           git commit -m "Github Action auto build for $(git rev-parse --short HEAD)"
-          git push -u origin master:$remote_branch
+          git push -u origin $remote_branch
