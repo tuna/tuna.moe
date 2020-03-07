@@ -13,7 +13,7 @@ body {
     @include dark{
         color: $color_secondary_dark;
     }
-    font-family: $font_local;
+    font-family: $font_default;
     font-weight: 400;
     padding-top: 70px;
 }
