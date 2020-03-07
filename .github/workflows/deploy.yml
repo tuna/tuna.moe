@@ -11,13 +11,26 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Create link to build artifacts
+      - name: Build the site in the tunathu/mirror-web container
         run: |
-          ln -s _site build
-      - name: Build & Deploy to GitHub Pages
+          docker run \
+          -v ${{ github.workspace }}:/data \
+          tunathu/mirror-web:latest jekyll build --future
+      - name: Commit and publish
         env: 
           GITHUB_TOKEN: ${{ secrets.GITHUB_ACCESS_TOKEN }}
           GITHUB_REPOSITORY: ${{ secrets.GITHUB_PUBLISH_REPOSITORY }}
           GITHUB_ACTOR: ${{ secrets.GITHUB_ACTOR }}
-        uses: BryanSchuetz/jekyll-deploy-gh-pages@master
-
+        run: |
+          mkdir _site_remote && cd _site_remote && \
+          remote_repo="https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" && \
+          remote_branch="master" && \
+          git init && \
+          git config user.name "${GITHUB_ACTOR}" && \
+          git config user.email "${GITHUB_ACTOR}@users.noreply.github.com" && \
+          git remote add origin $remote_repo && git pull origin && \
+          cp -a ../_site/* ./ && \
+          git add . && \
+          echo -n 'Files to Commit:' && ls -l | wc -l && \
+          git commit -m "Github Action auto build for $(git rev-parse --short HEAD)" > /dev/null 2>&1 && \
+          git push -u origin master:$remote_branch > /dev/null 2>&1 && \
