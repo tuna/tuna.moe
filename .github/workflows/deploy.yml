@@ -22,15 +22,15 @@ jobs:
           GITHUB_REPOSITORY: ${{ secrets.GITHUB_PUBLISH_REPOSITORY }}
           GITHUB_ACTOR: ${{ secrets.GITHUB_ACTOR }}
         run: |
-          mkdir _site_remote && cd _site_remote && \
-          remote_repo="https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" && \
-          remote_branch="master" && \
-          git init && \
-          git config user.name "${GITHUB_ACTOR}" && \
-          git config user.email "${GITHUB_ACTOR}@users.noreply.github.com" && \
-          git remote add origin $remote_repo && git pull origin && \
-          cp -a ../_site/* ./ && \
-          git add . && \
-          echo -n 'Files to Commit:' && ls -l | wc -l && \
-          git commit -m "Github Action auto build for $(git rev-parse --short HEAD)" > /dev/null 2>&1 && \
-          git push -u origin master:$remote_branch > /dev/null 2>&1 && \
+          remote_repo="https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          remote_branch="master"
+          mkdir _site_remote && cd _site_remote
+          git init
+          git config user.name "${GITHUB_ACTOR}"
+          git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
+          git remote add origin $remote_repo
+          git pull origin
+          cp -a ../_site/* ./
+          git add .
+          git commit -m "Github Action auto build for $(git rev-parse --short HEAD)"
+          git push -u origin master:$remote_branch
