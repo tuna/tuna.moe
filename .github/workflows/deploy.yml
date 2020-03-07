@@ -24,7 +24,7 @@ jobs:
         run: |
           remote_repo="https://x-access-token:${GITHUB_ACCESS_TOKEN}@github.com/${GITHUB_PUBLISH_REPOSITORY}.git"
           remote_branch="master"
-          git_commit_id = $(git rev-parse --short HEAD)
+          git_commit_id=$(git rev-parse --short HEAD)
           mkdir _site_remote && cd _site_remote
           git init
           git config user.name "${GITHUB_ACTOR}"
