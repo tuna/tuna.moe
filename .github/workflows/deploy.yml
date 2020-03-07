@@ -24,6 +24,7 @@ jobs:
         run: |
           remote_repo="https://x-access-token:${GITHUB_ACCESS_TOKEN}@github.com/${GITHUB_PUBLISH_REPOSITORY}.git"
           remote_branch="master"
+          git_commit_id = $(git rev-parse --short HEAD)
           mkdir _site_remote && cd _site_remote
           git init
           git config user.name "${GITHUB_ACTOR}"
@@ -32,5 +33,6 @@ jobs:
           git pull origin $remote_branch
           cp -a ../_site/* ./
           git add .
-          git commit -m "Github Action auto build for $(git rev-parse --short HEAD)"
+          git commit -m "Github Action auto build for https://github.com/tuna/tuna.moe/commit/${git_commit_id}"
           git push -u origin $remote_branch
+
