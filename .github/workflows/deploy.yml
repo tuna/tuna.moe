@@ -1,4 +1,4 @@
-name: Jekyll Deploy
+name: Jekyll Build & Deploy
 
 on:
   push:
@@ -11,9 +11,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+      - name: Create link to build artifacts
+        run: |
+          ln -s _site build
       - name: Build & Deploy to GitHub Pages
         env: 
           GITHUB_TOKEN: ${{ secrets.GITHUB_ACCESS_TOKEN }}
           GITHUB_REPOSITORY: ${{ secrets.GITHUB_PUBLISH_REPOSITORY }}
           GITHUB_ACTOR: ${{ secrets.GITHUB_ACTOR }}
         uses: BryanSchuetz/jekyll-deploy-gh-pages@master
+
