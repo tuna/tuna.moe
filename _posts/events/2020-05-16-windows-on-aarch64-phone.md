@@ -1,6 +1,6 @@
 ---
 layout: event
-title: "金枪鱼之夜：我的 "Windows" Phone 果然有问题——浅谈手机 SoC 启动，AArch64 UEFI/ACPI 适配和应用
+title: 金枪鱼之夜：我的 "Windows" Phone 果然有问题——浅谈手机 SoC 启动，AArch64 UEFI/ACPI 适配和应用
 date: 2020-05-16
 time: 19:00-21:00
 place: Zoom
