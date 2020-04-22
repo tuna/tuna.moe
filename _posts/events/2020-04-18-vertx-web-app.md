@@ -5,6 +5,7 @@ date: 2020-04-18
 time: 19:00-21:00
 place: Zoom + 雨课堂
 author: Shengqi Chen
+video: https://cloud.tsinghua.edu.cn/f/8e68fe8b7e7c4376868d/
 categories:
   - event
 tags:
