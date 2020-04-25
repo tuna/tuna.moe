@@ -6,6 +6,7 @@ time: 19:00-21:00
 place: 法图（廖凯原楼）B104
 author: Shengqi Chen
 video: https://cloud.tsinghua.edu.cn/f/c19e76c276564cdfbef1/
+slides: https://cloud.tsinghua.edu.cn/f/ac53f6bc0fb14f55abd3/
 categories:
   - event
 tags:

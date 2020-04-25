@@ -5,6 +5,7 @@ date: 2020-04-25
 time: 19:00-21:00
 place: Zoom
 author: Shengqi Chen
+slides: https://cloud.tsinghua.edu.cn/f/cd8bb34a7dc1474eb688/
 categories:
   - event
 tags:
