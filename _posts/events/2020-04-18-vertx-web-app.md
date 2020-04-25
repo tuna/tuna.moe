@@ -6,6 +6,7 @@ time: 19:00-21:00
 place: Zoom + 雨课堂
 author: Shengqi Chen
 video: https://cloud.tsinghua.edu.cn/f/8e68fe8b7e7c4376868d/
+slides: https://cloud.tsinghua.edu.cn/f/8b86a6194baf46c8ac0c/
 categories:
   - event
 tags:
