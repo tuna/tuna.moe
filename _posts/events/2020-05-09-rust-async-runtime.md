@@ -5,6 +5,8 @@ date: 2020-05-09
 time: 19:00-21:00
 place: Zoom
 author: Shengqi Chen
+video: https://cloud.tsinghua.edu.cn/f/f3a5774ef07f441486d1/
+slides: https://cloud.tsinghua.edu.cn/f/3a4990a6c23646ebb862/
 categories:
   - event
 tags:
