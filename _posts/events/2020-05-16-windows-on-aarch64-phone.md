@@ -6,7 +6,7 @@ time: 19:00-21:00
 place: Zoom
 author: Shengqi Chen
 slides: https://cloud.tsinghua.edu.cn/f/6abcbae919064bdcbffe/
-video:https://cloud.tsinghua.edu.cn/f/73603c2d44d443c6b39f/
+video: https://cloud.tsinghua.edu.cn/f/73603c2d44d443c6b39f/
 categories:
   - event
 tags:
