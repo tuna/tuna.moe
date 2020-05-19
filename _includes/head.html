@@ -9,7 +9,16 @@
 <link rel="shortcut icon" href="{{ "/assets/img/favicon.png" | prepend: site.baseurl }}">
 <link type="application/atom+xml" rel="alternate" href="{{ "/feed.xml" | prepend: site.baseurl }}" title="{{ site.title }}" />
 
-<title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+{% capture page_title %}{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}{% endcapture %}
+
+<!-- Open Graph metadata -->
+<meta property="og:type" content="website" />
+<meta property="og:title" content="{{ page_title }}" />
+<meta property="og:description" content="{{ site.about  }}" />
+<meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/assets/img/logo-white@3x.png" /> <!-- WeChat requires that thumbnail image is larger than 300x300 -->
+<meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{ page.url }}" />
+
+<title>{{ page_title }}</title>
 
 <!-- Bootstrap core CSS -->
 <link href="{{ "/assets/css/bootstrap.css" | prepend: site.baseurl }}" rel="stylesheet">
