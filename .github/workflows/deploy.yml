@@ -17,6 +17,7 @@ jobs:
           -v ${{ github.workspace }}:/data \
           tunathu/mirror-web:latest jekyll build --future
       - name: Commit and publish
+        if: ${{ github.ref == 'master' }}
         env: 
           GITHUB_ACCESS_TOKEN: ${{ secrets.GITHUB_ACCESS_TOKEN }}
           GITHUB_PUBLISH_REPOSITORY: ${{ secrets.GITHUB_PUBLISH_REPOSITORY }}
