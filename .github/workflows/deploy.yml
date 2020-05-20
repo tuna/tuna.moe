@@ -16,7 +16,7 @@ jobs:
           echo "Working on ref ${{github.ref}}"
           docker run -v ${{ github.workspace }}:/data tunathu/mirror-web:latest jekyll build --future
       - name: Commit and publish
-        if: ${{ github.ref == 'refs/head/master' }}
+        if: ${{ github.ref == 'refs/heads/master' }}
         env: 
           GITHUB_ACCESS_TOKEN: ${{ secrets.GITHUB_ACCESS_TOKEN }}
           GITHUB_PUBLISH_REPOSITORY: ${{ secrets.GITHUB_PUBLISH_REPOSITORY }}
