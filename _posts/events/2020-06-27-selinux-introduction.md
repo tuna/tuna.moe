@@ -5,6 +5,7 @@ date: 2020-06-27
 time: 19:00-21:00
 place: Zoom
 author: Shengqi Chen
+video: https://cloud.tsinghua.edu.cn/f/55d0ee97fce44c078982/
 categories:
   - event
 tags:
