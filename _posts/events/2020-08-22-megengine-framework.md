@@ -65,4 +65,6 @@ AI 浪潮一波又一波，仿佛不会算法就落后于时代了。深度学�
 
 欢迎一起来玩！
 
+注：如有准备好的问题，可扫描下方二维码预先提出。
+
 ![Poster](/assets/img/events/megengine_tunight.png)
