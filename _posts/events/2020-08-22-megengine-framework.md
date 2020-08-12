@@ -11,6 +11,7 @@ tags:
   - tunight
   - deep learning
   - MegEngine
+poster: megengine_tunight.png
 ---
 
 
@@ -64,3 +65,4 @@ AI 浪潮一波又一波，仿佛不会算法就落后于时代了。深度学�
 
 欢迎一起来玩！
 
+![Poster](/assets/img/events/megengine_tunight.png)
