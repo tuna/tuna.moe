@@ -5,6 +5,7 @@ date: 2020-08-22
 time: 19:00-21:00
 place: Zoom
 author: Shengqi Chen
+video: https://cloud.tsinghua.edu.cn/f/32df3362c2704398a333/
 categories:
   - event
 tags:
