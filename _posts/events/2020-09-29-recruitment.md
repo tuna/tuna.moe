@@ -18,4 +18,4 @@ poster: fall_recruitment_2020.png
 
 <!--more-->
 
-![Location](/assets/img/events/fall_recruitment_2020.jpg)
+![Location](/assets/img/events/fall_recruitment_2020.png)
