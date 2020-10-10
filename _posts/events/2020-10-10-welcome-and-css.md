@@ -5,6 +5,7 @@ date: 2020-10-10
 time: 19:00-21:00
 place: 六教 6A405 + Zoom
 author: Shengqi Chen
+slides: https://cloud.tsinghua.edu.cn/f/b4447749ad4c447ba968/
 categories:
   - event
 tags:
