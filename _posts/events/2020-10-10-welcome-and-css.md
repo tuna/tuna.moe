@@ -6,6 +6,7 @@ time: 19:00-21:00
 place: 六教 6A405 + Zoom
 author: Shengqi Chen
 slides: https://cloud.tsinghua.edu.cn/f/b4447749ad4c447ba968/
+video: https://cloud.tsinghua.edu.cn/f/5478a87094e147138c5c/
 categories:
   - event
 tags:
