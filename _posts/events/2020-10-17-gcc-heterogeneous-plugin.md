@@ -5,6 +5,7 @@ date: 2020-10-17
 time: 19:00-21:00
 place: 法图 B101 + Zoom
 author: Shengqi Chen
+video: https://cloud.tsinghua.edu.cn/f/affdab93598341cdacc3/
 categories:
   - event
 tags:
