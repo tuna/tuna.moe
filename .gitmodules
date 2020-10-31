@@ -1,0 +1,3 @@
+[submodule "oh-my-tuna"]
+	path = oh-my-tuna
+	url = https://github.com/tuna/oh-my-tuna

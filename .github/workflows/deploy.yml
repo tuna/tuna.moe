@@ -11,6 +11,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+        with:
+          submodules: true
       - name: Build the site in the tunathu/mirror-web container
         run: |
           echo "Working on ref ${{github.ref}}"
