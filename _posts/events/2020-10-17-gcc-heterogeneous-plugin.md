@@ -6,6 +6,7 @@ time: 19:00-21:00
 place: 法图 B101 + Zoom
 author: Shengqi Chen
 video: https://cloud.tsinghua.edu.cn/f/affdab93598341cdacc3/
+slides: https://cloud.tsinghua.edu.cn/f/3ada5967a1304629a8ae/
 categories:
   - event
 tags:
