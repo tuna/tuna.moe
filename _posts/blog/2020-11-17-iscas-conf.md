@@ -27,7 +27,7 @@ TUNA 作为国内较大的高校开源社区，参与了「点亮计划」，从
 
 ![](/assets/img/blog/2020/iscas-conf/ospp-timeline.jpg)
 
-老梗
+老梗（甚至可以说是典故了）
 
 ![](/assets/img/blog/2020/iscas-conf/openatom.jpg)
 
@@ -55,9 +55,9 @@ TUNA 作为国内较大的高校开源社区，参与了「点亮计划」，从
 
 ![](/assets/img/blog/2020/iscas-conf/riscv.jpg)
 
-会后见闻：南京的园林
+现场社区的奇妙贴纸
 
-![](/assets/img/blog/2020/iscas-conf/garden.jpg)
+![](/assets/img/blog/2020/iscas-conf/aosc.jpg)
 
 邻居社区的友好问候
 
@@ -66,3 +66,7 @@ TUNA 作为国内较大的高校开源社区，参与了「点亮计划」，从
 由于期中考试吃不到悠闲金枪鱼的USTCLUG
 
 ![](/assets/img/blog/2020/iscas-conf/ustclug.jpg)
+
+会后见闻：南京的园林
+
+![](/assets/img/blog/2020/iscas-conf/garden.jpg)
