@@ -24,7 +24,9 @@ tags:
 * 时间：**2021-03-13（校历第三周周六）** 19:00 UTC +08:00
 * 活动形式：线下 + 线上会议 + 直播
   * 地点：四教 4301
-  * Zoom：待定
-  * 直播：https://live.bilibili.com/699121（可能不提供）
+  * 会议：**腾讯会议** 597 483 799
+  * 直播：https://meeting.tencent.com/l/wq0YMqMcUfDM
+
+注：之后的 Tunight 将会恢复使用 Zoom 会议，本次为临时使用。
 
 欢迎一起来玩！
