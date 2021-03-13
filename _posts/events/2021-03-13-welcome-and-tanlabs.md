@@ -5,6 +5,8 @@ date: 2021-03-13
 time: 19:00-21:00
 place: 四教 4301  + Zoom
 author: Shengqi Chen
+slides: https://cloud.tsinghua.edu.cn/d/49472fa17c234ebbacd8/
+video: https://cloud.tsinghua.edu.cn/f/84e3c9a8a22849c2b479/
 categories:
   - event
 tags:
