@@ -5,6 +5,7 @@ date: 2021-06-12
 time: 19:00-21:00
 place: 一教 300 + Zoom
 author: Shengqi Chen
+slides: https://cloud.tsinghua.edu.cn/f/10effaeb21d742de9708/
 categories:
   - event
 tags:
