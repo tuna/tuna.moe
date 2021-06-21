@@ -6,6 +6,7 @@ time: 19:00-21:00
 place: 一教 300 + Zoom
 author: Shengqi Chen
 slides: https://cloud.tsinghua.edu.cn/f/10effaeb21d742de9708/
+video: https://cloud.tsinghua.edu.cn/f/c69446aba1704e5eb65d/
 categories:
   - event
 tags:
