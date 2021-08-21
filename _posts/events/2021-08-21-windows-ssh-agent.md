@@ -23,7 +23,6 @@ tags:
   * Zoom：621 219 8453
   * 直播链接：YouTube，开始后公布
 
-P.S. 本次 Tunight 的内容来源于 OSPP 2021 的“Windows 平台 SSH agent 的统一实现”项目，可见 [OSPP 项目页面](https://summer.iscas.ac.cn/#/org/prodetail/210160039)。上述简介由主讲人编写。
-
+P.S. 本次 Tunight 的内容来源于 OSPP 2021 的“Windows 平台 SSH agent 的统一实现”项目，可见 [OSPP 项目页面](https://summer.iscas.ac.cn/#/org/prodetail/210160039)、[项目 GitHub 页面](https://github.com/Apache553/ssh-agent-bridge)。上述简介由主讲人编写。
 
 欢迎一起来玩！
