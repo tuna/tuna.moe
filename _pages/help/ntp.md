@@ -19,7 +19,9 @@ NTP (网络时间协议, network time protocol) 是网络中保持时间同步�
 
 ### Linux 客户端配置
 
-在 `/etc/ntp.conf` 中添加一行 `server ntp.tuna.tsinghua.edu.cn` 即可。（若您的发行版使用 Chrony，请修改对应的配置文件 `/etc/chrony.conf`。）
+使用 systemd-timesyncd 的用户需要修改 `/etc/systemd/timesyncd.conf`，将其中 `NTP=` 一行取消注释，修改为 `NTP=ntp.tuna.tsinghua.edu.cn` 。同时建议校内用户在 `FallbackNTP` 一栏中添加服务总览中提到的备用 NTP。修改好后，可使用 `systemctl restart systemd-timesyncd` 使配置生效。
+
+使用 ntpd 的用户需要在 `/etc/ntp.conf` 中添加一行 `server ntp.tuna.tsinghua.edu.cn` 。（若您的发行版使用 Chrony，请修改对应的配置文件 `/etc/chrony.conf`。）
 
 为了确保 ntpd 服务正在运行，使用你的发行版的 initscripts 脚本或 `systemctl`（若有）进行检查和修正。
 
