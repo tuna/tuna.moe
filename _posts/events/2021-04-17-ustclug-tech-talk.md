@@ -5,6 +5,8 @@ date: 2021-04-17
 time: 19:00-21:00
 place: 法图 B103  + Zoom
 author: Shengqi Chen
+slides: https://cloud.tsinghua.edu.cn/d/b41e901754d748af8eca/
+video: https://cloud.tsinghua.edu.cn/f/2bcef0ee347e486cb353/
 categories:
   - event
 tags:
