@@ -5,6 +5,8 @@ date: 2021-11-20
 time: 19:00-21:00
 place: 三教 1102
 author: Yipeng Liu
+slides: https://cloud.tsinghua.edu.cn/f/031a28d520c74279aa4d/
+video: https://cloud.tsinghua.edu.cn/f/3358d7fc21ff40458132/
 categories:
   - event
 tags:
