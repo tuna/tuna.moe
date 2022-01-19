@@ -31,11 +31,13 @@ NTP (网络时间协议, network time protocol) 是网络中保持时间同步�
 
 在“系统配置 > 日期与时间 > 自动设置日期与时间”一栏，填入 `ntp.tuna.tsinghua.edu.cn`。
 
-在 macOS Mojave 及更新的系统，你可以使用 sudo sntp -sS ntp.tuna.tsinghua.edu.cn 来进行一次性的同步，否则，使用 `sudo ntpdate ntp.tuna.tsinghua.edu.cn` 进行同步。
+在 macOS Mojave 及更新的系统，你可以使用 `sudo sntp -sS ntp.tuna.tsinghua.edu.cn` 来进行一次性的同步，否则，使用 `sudo ntpdate ntp.tuna.tsinghua.edu.cn` 进行同步。
 
 ### Windows 客户端配置
 
-Windows XP 及以下版本的配置方式可以参看上海大学 NTP 网站上提供的[教程](http://cms.shu.edu.cn/Default.aspx?alias=cms.shu.edu.cn/ntp)。  
+#### Windows XP 及以下版本的配置
+
+在“运行”中输入 `net time /setsntp:ntp.tuna.tsinghua.edu.cn`。
 
 #### Windows 10 客户端配置
 
