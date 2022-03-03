@@ -9,6 +9,7 @@ categories:
   - event
 tags:
   - tunight
+  - welcome
   - proof-assistant
 ---
 
