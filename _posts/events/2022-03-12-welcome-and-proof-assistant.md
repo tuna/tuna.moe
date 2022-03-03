@@ -32,6 +32,6 @@ ___
 
 [1] [List of unsolved problems in mathematics](https://en.wikipedia.org/wiki/List_of_unsolved_problems_in_mathematics)
 
-[2] [Agda - Universe Levels](https://agda.readthedocs.io/en/latest/language/universe-levels.html])
+[2] [Agda - Universe Levels](https://agda.readthedocs.io/en/latest/language/universe-levels.html)
 
 [3] [Pusheen](http://pusheen.com/)
