@@ -5,6 +5,8 @@ date: 2022-03-19
 time: 19:00-21:00
 place: 三教 1102
 author: Yipeng Liu
+slides: https://cloud.tsinghua.edu.cn/f/c2004c1b2f24412ca80b/
+video: https://cloud.tsinghua.edu.cn/f/915b69572a254f58a309/
 categories:
   - event
 tags:
