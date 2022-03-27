@@ -5,6 +5,8 @@ date: 2022-03-26
 time: 19:00-21:00
 place: 三教 1204
 author: Yipeng Liu
+slides: https://cloud.tsinghua.edu.cn/f/44f4800869634160919b/
+video: https://cloud.tsinghua.edu.cn/f/65321316228c4bfbacdd/
 categories:
   - event
 tags:
