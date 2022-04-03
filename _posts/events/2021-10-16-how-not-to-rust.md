@@ -5,8 +5,8 @@ date: 2021-10-16
 time: 19:00-21:00
 place: 一教 304
 author: Yipeng Liu
-slides: https://cloud.tsinghua.edu.cn/f/c4bb6f08471549588707/
-video: https://cloud.tsinghua.edu.cn/f/1619f9a2db61470c8de2/
+slides: https://mirrors.tuna.tsinghua.edu.cn/tuna/tunight/2021-10-16-how-not-to-rust/slides.pdf
+video: https://mirrors.tuna.tsinghua.edu.cn/tuna/tunight/2021-10-16-how-not-to-rust/video.mp4
 categories:
   - event
 tags:

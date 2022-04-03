@@ -5,8 +5,8 @@ date: 2021-10-23
 time: 19:00-21:00
 place: 三教 1201
 author: Yipeng Liu
-slides: https://cloud.tsinghua.edu.cn/f/77e8fccd2dd6450d9ee7/
-video: https://cloud.tsinghua.edu.cn/f/293df2dce0c74ae69aa9/
+slides: https://mirrors.tuna.tsinghua.edu.cn/tuna/tunight/2021-10-23-from-rtl-to-soc/slides.pdf
+video: https://mirrors.tuna.tsinghua.edu.cn/tuna/tunight/2021-10-23-from-rtl-to-soc/video.mp4
 categories:
   - event
 tags:

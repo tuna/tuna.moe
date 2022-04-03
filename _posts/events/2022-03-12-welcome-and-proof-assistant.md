@@ -5,8 +5,8 @@ date: 2022-03-12
 time: 19:00-21:00
 place: 新水 304
 author: Yipeng Liu
-slides: https://cloud.tsinghua.edu.cn/f/3a1366fde24e4b9ba133/
-video: https://cloud.tsinghua.edu.cn/f/95c95d203ab74d9bb705/
+slides: https://mirrors.tuna.tsinghua.edu.cn/tuna/tunight/2022-03-12-welcome-and-proof-assistant/slides.pdf
+video: https://mirrors.tuna.tsinghua.edu.cn/tuna/tunight/2022-03-12-welcome-and-proof-assistant/video.mp4
 categories:
   - event
 tags:

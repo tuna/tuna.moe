@@ -5,8 +5,8 @@ date: 2021-11-27
 time: 19:00-21:00
 place: 三教 1202
 author: Yipeng Liu
-slides: https://cloud.tsinghua.edu.cn/f/fba30a90b93943fd8593/
-video: https://cloud.tsinghua.edu.cn/f/136e6198b6884391ae0f/
+slides: https://mirrors.tuna.tsinghua.edu.cn/tuna/tunight/2021-11-27-comp-photography/slides.pdf
+video: https://mirrors.tuna.tsinghua.edu.cn/tuna/tunight/2021-11-27-comp-photography/video.mp4
 categories:
   - event
 tags:

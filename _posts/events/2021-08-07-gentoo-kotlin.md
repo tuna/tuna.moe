@@ -5,8 +5,8 @@ date: 2021-08-07
 time: 19:00-21:00
 place: Zoom
 author: Shengqi Chen
-slides: https://cloud.tsinghua.edu.cn/f/3946413247c74d2f836c/
-video: https://cloud.tsinghua.edu.cn/f/a8fcb2138c204c1494bd/
+slides: https://mirrors.tuna.tsinghua.edu.cn/tuna/tunight/2021-08-07-gentoo-kotlin/slides.pdf
+video: https://mirrors.tuna.tsinghua.edu.cn/tuna/tunight/2021-08-07-gentoo-kotlin/video.mp4
 categories:
   - event
 tags:

@@ -5,8 +5,8 @@ date: 2021-08-21
 time: 19:00-21:00
 place: Zoom
 author: Shengqi Chen
-slides: https://cloud.tsinghua.edu.cn/f/bf8cd812d82e44d1ab0d/
-video: https://cloud.tsinghua.edu.cn/f/0b54fa77da4e47eaaed1/
+slides: https://mirrors.tuna.tsinghua.edu.cn/tuna/tunight/2021-08-21-windows-ssh-agent/slides.pptx
+video: https://mirrors.tuna.tsinghua.edu.cn/tuna/tunight/2021-08-21-windows-ssh-agent/video.mp4
 categories:
   - event
 tags:

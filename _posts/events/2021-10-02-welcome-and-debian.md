@@ -5,7 +5,7 @@ date: 2021-10-02
 time: 19:00-21:00
 place: 六教 6A004
 author: Yipeng Liu
-slides: https://cloud.tsinghua.edu.cn/f/60f979798bac488c8d94/
+slides: https://mirrors.tuna.tsinghua.edu.cn/tuna/tunight/2021-10-02-welcome-and-debian/slides.pdf
 categories:
   - event
 tags:
