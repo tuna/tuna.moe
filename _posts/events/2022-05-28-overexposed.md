@@ -2,7 +2,7 @@
 layout: event
 title: "金枪鱼之夜：航空摄影"
 date: 2022-05-28
-time: 19:00-21:00
+time: 10:00-12:00
 place: Zoom
 author: Yipeng Liu
 categories:
