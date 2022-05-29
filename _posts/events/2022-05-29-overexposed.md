@@ -5,6 +5,8 @@ date: 2022-05-29
 time: 10:00-12:00
 place: Zoom
 author: Yipeng Liu
+slides: https://mirrors.tuna.tsinghua.edu.cn/tuna/tunight/2022-05-29-overexposed/slides.pdf
+video: https://mirrors.tuna.tsinghua.edu.cn/tuna/tunight/2022-05-29-overexposed/video.mp4
 categories:
   - event
 tags:
