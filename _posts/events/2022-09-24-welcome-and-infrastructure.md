@@ -10,7 +10,7 @@ categories:
 tags:
   - tunight
   - welcome
-  - proof-assistant
+  - infrastructure
 ---
 
 百团大战还未开始，但迎新会已经准备好了。~~本次招新预计会有很多新的小伙伴加入，院系分布也更加多元，提前欢迎你们加入 TUNA！~~按照惯例首先会有 TUNA 的简介、互相认识的环节和建设 TUNA 的 n+1 种方式，在此之外还会由 Nick Cao 分享自建基础设施的经验。
