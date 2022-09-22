@@ -25,7 +25,7 @@ NTP (网络时间协议, network time protocol) 是网络中保持时间同步�
 
 为了确保 ntpd 服务正在运行，使用你的发行版的 initscripts 脚本或 `systemctl`（若有）进行检查和修正。
 
-如果你的机器的时钟发生跳变不会有严重后果 (例如在你的笔记本上)，你可以使用 `sudo ntpdate ntp.tuna.tsinghua.edu.cn` 进行一次性的同步。
+如果你的机器的时钟发生跳变不会有严重后果 (例如在你的笔记本上)，你可以使用 `sudo sntp ntp.tuna.tsinghua.edu.cn` 进行一次性的同步。
 
 ### Mac 客户端配置
 
