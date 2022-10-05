@@ -5,6 +5,8 @@ date: 2022-09-24
 time: 19:00-21:00
 place: 三教 1201
 author: Yipeng Liu
+slides: https://mirrors.tuna.tsinghua.edu.cn/tuna/tunight/2022-09-24-welcome-and-infrastructure/slides/
+video: https://mirrors.tuna.tsinghua.edu.cn/tuna/tunight/2022-09-24-welcome-and-infrastructure/video.mp4
 categories:
   - event
 tags:
