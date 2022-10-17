@@ -5,6 +5,8 @@ date: 2022-10-08
 time: 19:00-21:00
 place: 三教 1201
 author: Yipeng Liu
+slides: https://mirrors.tuna.tsinghua.edu.cn/tuna/tunight/2022-10-08-lto-practice/slides.pdf
+video: https://mirrors.tuna.tsinghua.edu.cn/tuna/tunight/2022-10-08-lto-practice/video.mp4
 categories:
   - event
 tags:
