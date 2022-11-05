@@ -5,6 +5,8 @@ date: 2022-11-05
 time: 19:00-21:00
 place: 三教 1201
 author: Yipeng Liu
+slides: https://mirrors.tuna.tsinghua.edu.cn/tuna/tunight/2022-11-05-rust-vn-ayaka/slides.pdf
+video: https://mirrors.tuna.tsinghua.edu.cn/tuna/tunight/2022-11-05-rust-vn-ayaka/video.mp4
 categories:
   - event
 tags:
