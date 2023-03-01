@@ -40,4 +40,5 @@ jobs:
           git add .
           git commit -m "Github Action auto build for https://github.com/tuna/tuna.moe/commit/${git_commit_id}"
           git push -u origin $remote_branch
+          curl -u "x-access-token:${GITHUB_ACCESS_TOKEN}" -fsSL -X POST "https://api.github.com/repos/tuna/tuna.moe-publish/pages/builds"
 
