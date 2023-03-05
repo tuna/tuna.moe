@@ -5,6 +5,8 @@ date: 2023-03-04
 time: 19:00-21:00
 place: 三教 1201
 author: Yipeng Liu
+slides: https://mirrors.tuna.tsinghua.edu.cn/tuna/tunight/2023-03-04-welcome-and-ipsec/slides/
+video: https://mirrors.tuna.tsinghua.edu.cn/tuna/tunight/2023-03-04-welcome-and-ipsec/video.mp4
 categories:
   - event
 tags:
