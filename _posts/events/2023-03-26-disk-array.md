@@ -5,6 +5,8 @@ date: 2023-03-26
 time: 19:00-21:00
 place: 刘卿楼 104
 author: Yipeng Liu
+slides: https://mirrors.tuna.tsinghua.edu.cn/tuna/tunight/2023-03-26-disk-array/slides.pdf
+video: https://mirrors.tuna.tsinghua.edu.cn/tuna/tunight/2023-03-26-disk-array/video.mp4
 categories:
   - event
 tags:
