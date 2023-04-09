@@ -5,6 +5,7 @@ date: 2023-04-08
 time: 19:00-21:00
 place: 三教 1102
 author: Yipeng Liu
+video: https://mirrors.tuna.tsinghua.edu.cn/tuna/tunight/2023-04-08-send-ai-into-space/video.mp4
 categories:
   - event
 tags:
