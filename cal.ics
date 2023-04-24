@@ -1,0 +1,54 @@
+---
+---
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:TUNA
+X-WR-TIMEZONE:Asia/Shanghai
+X-WR-CALDESC:Events related to Tsinghua University TUNA Association
+BEGIN:VTIMEZONE
+TZID:Asia/Shanghai
+X-LIC-LOCATION:Asia/Shanghai
+BEGIN:STANDARD
+TZOFFSETFROM:+0800
+TZOFFSETTO:+0800
+TZNAME:CST
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+{% for event in site.categories['event'] -%}
+BEGIN:VEVENT
+SUMMARY:{{ event.title }}
+{% assign no_time = false -%}
+{% if event.time -%}
+{% assign start_end_times = event.time | split: "-" -%}
+{% if start_end_times.size >= 2 %}
+{% assign start_time = start_end_times[0] | strip | date: "%H%M%S" -%}
+{% assign end_time = start_end_times[1] | strip | date: "%H%M%S" -%}
+{% else -%}
+{% assign no_time = true -%}
+{% endif -%}
+{% endif -%}
+{% if no_time != true -%}
+DTSTART;TZID=Asia/Shanghai:{{event.date | date: "%Y%m%d"}}T{{start_time}}
+DTEND;TZID=Asia/Shanghai:{{event.date | date: "%Y%m%d"}}T{{end_time}}
+{% else -%}
+DTSTART;VALUE=DATE:{{event.date | date: "%Y%m%d" }}
+DTEND;VALUE=DATE:{{event.date | date: "%s" | plus: 86400 | date: "%Y%m%d"}}
+{% endif -%}
+DTSTAMP:{{event.date | date: "%Y%m%dT%H%M%SZ"}}
+CREATED:{{event.date | date: "%Y%m%dT%H%M%SZ"}}
+LAST-MODIFIED:{{event.date | date: "%Y%m%dT%H%M%SZ"}}
+UID:{{event.id | slugify: "latin"}}@events.tuna.tsinghua.edu.cn
+{% assign desc_lines = event.excerpt | split: "
+" -%}
+{% capture desc %}{% for line in desc_lines %}{{line | strip}} {% endfor %}{% endcapture -%}
+DESCRIPTION:{{ desc }}<p class="cal-abs-url"><a href="{{ event.url | absolute_url }}">{{ event.url | absolute_url }}</a></p>
+LOCATION:{{event.place}}
+SEQUENCE:0
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+{% endfor -%}
+END:VCALENDAR
