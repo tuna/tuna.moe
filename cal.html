@@ -6,14 +6,30 @@ permalink: /cal/
 <div class="container">
   <h2># 活动日历</h2>
   <div class="row">
+    <span id="current"></span>
+    <button class="button is-rounded" id="today">Today</button>
+    <button class="button is-rounded" id="prev">Prev</button>
+    <button class="button is-rounded" id="next">Next</button>
+  </div>
+  <div class="row">
     <div class="spacing"></div>
-    <iframe src="https://www.localendar.com/public/tuna_moe" style="border:0; width:100%; height:700px;"></iframe>
+    <div id="calendar" style="width:100%; height:700px;"></div>
     <div class="spacing"></div>
   </div>
   <div id="subscribe-methods" class="col-md-12">
     <h3>订阅方式（不要使用上面日历中的链接）</h3>
-    <p>iCal（请勿下载，直接使用地址）: <a href="https://www.google.com/calendar/ical/fphr1e519jsbi6dg2pll7kttt4%40group.calendar.google.com/public/basic.ics">https://www.google.com/calendar/ical/fphr1e519jsbi6dg2pll7kttt4%40group.calendar.google.com/public/basic.ics</a></p>
-    <p>Google 日历（点击右下角加号）: <a href="https://calendar.google.com/calendar/embed?src=fphr1e519jsbi6dg2pll7kttt4%40group.calendar.google.com&ctz=Asia%2FShanghai">https://calendar.google.com/calendar/embed?src=fphr1e519jsbi6dg2pll7kttt4%40group.calendar.google.com&ctz=Asia%2FShanghai</a></p>
+    <p>iCal（请勿下载，直接使用地址）: <a
+        href="https://www.google.com/calendar/ical/fphr1e519jsbi6dg2pll7kttt4%40group.calendar.google.com/public/basic.ics">https://www.google.com/calendar/ical/fphr1e519jsbi6dg2pll7kttt4%40group.calendar.google.com/public/basic.ics</a>
+    </p>
+    <p>Google 日历（点击右下角加号）: <a
+        href="https://calendar.google.com/calendar/embed?src=fphr1e519jsbi6dg2pll7kttt4%40group.calendar.google.com&ctz=Asia%2FShanghai">https://calendar.google.com/calendar/embed?src=fphr1e519jsbi6dg2pll7kttt4%40group.calendar.google.com&ctz=Asia%2FShanghai</a>
+    </p>
   </div>
 </div>
 
+
+<script src="https://cdn.jsdelivr.net/npm/ical.js@1.5.0/build/ical.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@toast-ui/calendar@2.1.3/dist/toastui-calendar.min.css" />
+<link rel="stylesheet" href="{{ "/assets/css/cal.css" | prepend: site.baseurl }}" />
+<script src="https://cdn.jsdelivr.net/npm/@toast-ui/calendar@2.1.3/dist/toastui-calendar.min.js"></script>
+<script src="{{ "/assets/js/cal.es6" | prepend: site.baseurl }}"></script>

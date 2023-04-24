@@ -1,0 +1,62 @@
+---
+---
+$color_bg_dark: #222;
+$color_popup_border_dark: #383838;
+
+@mixin dark {
+    @media (prefers-color-scheme: dark) { 
+        @content
+    }
+}
+
+:root{
+    --cal-holiday-color: #ff4040;
+    --cal-holiday-not-current-month-color: rgba(255, 64, 64, 0.4);
+    --cal-weekday-not-current-month-color: rgba(56, 68, 82, 0.4);
+    --cal-border-color: #e5e5e5;
+    @include dark {
+        --cal-weekday-not-current-month-color: rgba(221, 221, 221, 0.4);
+        --cal-border-color: #606060;
+    }
+}
+#calendar{
+    .toastui-calendar-daygrid-cell+.toastui-calendar-daygrid-cell{
+        border-left-color: var(--cal-border-color);
+    }
+}
+
+@include dark{
+    .toastui-calendar-weekday-event-dot + .toastui-calendar-weekday-event-title {
+        color:#ccc;
+    }
+
+    .toastui-calendar-popup-container {
+        box-shadow: 0 2px 6px 0 rgba(255, 255, 255, 0.1);
+    }
+    .toastui-calendar-detail-container {
+        border-color: $color_popup_border_dark;
+        background-color: $color_bg_dark;
+    }
+    .toastui-calendar-popup-arrow{
+        &.toastui-calendar-right .toastui-calendar-popup-arrow-fill{
+            border-left-color: $color_bg_dark;
+        }
+        &.toastui-calendar-right .toastui-calendar-popup-arrow-border{
+            border-left-color: $color_popup_border_dark;
+        }
+        &.toastui-calendar-left .toastui-calendar-popup-arrow-fill{
+            border-right-color: $color_bg_dark;
+        }
+        &.toastui-calendar-left .toastui-calendar-popup-arrow-border{
+            border-right-color: $color_popup_border_dark;
+        }
+    }
+    .toastui-calendar-icon{
+        filter: invert(1);
+        --webkit-filter: invert(1);
+        --moz-filter: invert(1);
+    }
+}
+p.cal-abs-url{
+    line-break: loose;
+}
