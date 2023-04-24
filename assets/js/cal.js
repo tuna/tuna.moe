@@ -1,3 +1,7 @@
+---
+---
+{% putbabelpolyfill -%}
+{% babel %}
 (function(){
   const calendarUrl = '/cal.ics'; // TODO: replace with ics file on mirrors
 
@@ -98,9 +102,8 @@
         state: null,
       };
     }));
-    window.calEvents = comp.getAllSubcomponents("vevent").map(vevent => new ICAL.Event(vevent));
   }
 
   document.addEventListener('DOMContentLoaded', renderCalendar);
-  window.calendar = calendar;
 })();
+{% endbabel %}
