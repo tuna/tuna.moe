@@ -1,0 +1,7 @@
+{% assign line_len = 74 -%}
+{% assign lines = include.content.size | plus: line_len - 1 | divided_by: line_len | floor | minus: 1 -%}
+{% for i in (0..lines) -%}
+{% assign start = i | times: line_len -%}
+{% assign line = include.content | slice: start, line_len -%}
+{% unless i == 0 %}{{ " " }}{% endunless %}{{ line }}
+{% endfor -%}
