@@ -22,9 +22,9 @@ $color_popup_border_dark: #383838;
 }
 
 #calendar {
-    height: 700px;
-    padding-left: 15px;
-    padding-right: 15px;
+    height: 500px;
+    padding-left: 20px;
+    padding-right: 20px;
 
     .toastui-calendar-daygrid-cell+.toastui-calendar-daygrid-cell {
         border-left-color: var(--cal-border-color);
@@ -40,6 +40,11 @@ button.btn-default {
         background-color: #383838;
         border-color: #606060;
     }
+}
+
+h3#current {
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 button.cal-ctrl-btn {
