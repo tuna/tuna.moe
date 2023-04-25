@@ -3,6 +3,9 @@ layout: default
 title: 活动日历
 permalink: /cal/
 ---
+
+{% assign ics_url = "/cal.ics" | prepend: site.baseurl %}
+
 <div class="container">
   <h2># 活动日历</h2>
   <div class="row">
@@ -17,11 +20,14 @@ permalink: /cal/
     <div class="spacing"></div>
   </div>
   <div id="subscribe-methods" class="col-md-12">
-    <h3>订阅方式（不要使用上面日历中的链接）</h3>
-    <p>iCal（请勿下载，直接使用地址）: <a
+    <h3>订阅方式</h3>
+    <p>iCal（本站生成）: <a
+      href="{{ ics_url }}">{{ ics_url | prepend: site.url }}</a>
+  </p>
+    <p>iCal（Google 日历）: <a
         href="https://www.google.com/calendar/ical/fphr1e519jsbi6dg2pll7kttt4%40group.calendar.google.com/public/basic.ics">https://www.google.com/calendar/ical/fphr1e519jsbi6dg2pll7kttt4%40group.calendar.google.com/public/basic.ics</a>
     </p>
-    <p>Google 日历（点击右下角加号）: <a
+    <p>Google 日历网页（点击右下角加号）: <a
         href="https://calendar.google.com/calendar/embed?src=fphr1e519jsbi6dg2pll7kttt4%40group.calendar.google.com&ctz=Asia%2FShanghai">https://calendar.google.com/calendar/embed?src=fphr1e519jsbi6dg2pll7kttt4%40group.calendar.google.com&ctz=Asia%2FShanghai</a>
     </p>
   </div>

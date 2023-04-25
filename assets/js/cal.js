@@ -3,7 +3,7 @@
 {% putbabelpolyfill -%}
 {% babel %}
 (function(){
-  const calendarUrl = '/cal.ics'; // TODO: replace with ics file on mirrors
+  const calendarUrl = {{ "/cal.ics" | prepend: site.baseurl }};
 
   const container = document.getElementById('calendar');
   const options = {
