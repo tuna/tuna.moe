@@ -2,8 +2,8 @@
 ---
 {% putbabelpolyfill -%}
 {% babel %}
-(function(){
-  const calendarUrl = {{ "/cal.ics" | prepend: site.baseurl }};
+(function() {
+  const calendarUrl = '{{ "/cal.ics" | prepend: site.baseurl }}';
 
   const container = document.getElementById('calendar');
   const options = {
@@ -53,7 +53,7 @@
   const prevButton = $('button#prev')[0];
   const nextButton = $('button#next')[0];
   const todayButton = $('button#today')[0];
-  const rangeText = $('span#current')[0];
+  const rangeText = $('#current')[0];
 
   function updateMonth() {
     const rangeStart = calendar.getDateRangeStart();
