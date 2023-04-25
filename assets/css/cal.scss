@@ -31,6 +31,24 @@ $color_popup_border_dark: #383838;
     }
 }
 
+div.btn-group {
+    height: 35px;
+}
+
+button.btn-default {
+    @include dark {
+        background-color: #383838;
+        border-color: #606060;
+    }
+}
+
+button.cal-ctrl-btn {
+    height: 100%;
+    @include dark {
+        color: #ccc;
+    }
+}
+
 @include dark {
     .toastui-calendar-weekday-event-dot+.toastui-calendar-weekday-event-title {
         color: #ccc;
