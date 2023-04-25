@@ -1,5 +1,0 @@
----
----
-{% assign nl = "%0a" | url_decode -%}
-{% assign crnl = "%0d%0a" | url_decode -%}
-{{content | replace: nl, crnl}}

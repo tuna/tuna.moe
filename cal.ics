@@ -1,5 +1,5 @@
 ---
-layout: nl-to-crnl
+layout: lf-to-crlf
 ---
 BEGIN:VCALENDAR
 VERSION:2.0
@@ -19,6 +19,7 @@ TZNAME:CST
 DTSTART:19700101T000000
 END:STANDARD
 END:VTIMEZONE
+
 {% for event in site.categories['event'] -%}
 BEGIN:VEVENT
 {% capture summary %}SUMMARY:{{ event.title }}{% endcapture -%}
@@ -56,4 +57,5 @@ STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
 {% endfor -%}
+
 END:VCALENDAR
