@@ -24,6 +24,7 @@ google_verify: Lwh0NyQ1YAKRuLlXXkk0_QvgJpGLRQVA8xaoRn81Ysk
 plugins:
     - jekyll-babel
     - jekyll-minifier
+    - jekyll/fontawesome/svg
 
 babel_js_extensions: 'es6'
 jekyll-minifier:
