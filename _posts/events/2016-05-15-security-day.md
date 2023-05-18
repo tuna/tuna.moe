@@ -30,7 +30,7 @@ poster: NSD2016.png
 也有面向普通大众的安全知识科普，无需专业知识，了解最基本的安全防范技能，即可避开生活中常见的安全隐患。
 
 - {% fa_svg fas.fa-calendar %} 时间: 5月15日下午 14:00 - 16:00
-- {% fa_svg fas.fa-map-marker %} 地点: 五教5105 [地图](#map)
+- {% fa_svg fas.fa-location-dot %} 地点: 五教5105 [地图](#map)
 
 不见不散。
 

@@ -37,7 +37,7 @@ poster: NSD2017.png
 也有面向普通大众的安全知识科普，无需专业知识，了解最基本的安全防范技能，即可避开生活中常见的安全隐患。
 
 - {% fa_svg fas.fa-calendar %} 时间: 10月28日下午 14:00 - 16:30
-- {% fa_svg fas.fa-map-marker %} 地点: 三教3200 [地图](#map)
+- {% fa_svg fas.fa-location-dot %} 地点: 三教3200 [地图](#map)
 
 我们不见不散。
 

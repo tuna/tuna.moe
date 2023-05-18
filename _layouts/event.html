@@ -10,7 +10,7 @@ layout: default
             <a href="{{ page.url | prepend: site.baseurl }}"><h3 class="ctitle">{{ page.title }}</h3></a>
             <div class="event-meta">
               <span><strong>{% fa_svg fas.fa-calendar %} 时间: </strong>{{page.date | date: "%F"}}{% if page.time %} {{page.time}} {% endif %}</span>
-              <span><strong>{% fa_svg fas.fa-map-marker %} 地点:</strong> {{page.place}}</span>
+              <span><strong>{% fa_svg fas.fa-location-dot %} 地点:</strong> {{page.place}}</span>
               <span class="event-tags">
                 {% for tag in page.tags %}
                 <span class="label label-success">{{tag}}</span>
@@ -18,7 +18,7 @@ layout: default
               </span>
               {% if page.video or page.slides or page.youtube or page.audio %}
               <br>
-              <span><strong>{% fa_svg fas.fa-cloud-download-alt %} 资源链接: </strong></span>
+              <span><strong>{% fa_svg fas.fa-cloud-arrow-down %} 资源链接: </strong></span>
               {% if page.audio %}
               <a data-toggle="tooltip" title="录音下载" class="label label-info" href="{{page.audio}}" target="_blank">{% fa_svg fas.fa-headphones %}</i></a>
               {% endif %}
