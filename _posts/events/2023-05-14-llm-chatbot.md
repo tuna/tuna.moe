@@ -5,6 +5,7 @@ date: 2023-05-14
 time: 10:00-12:00
 place: 三教 1201
 author: Yipeng Liu
+video: https://mirrors.tuna.tsinghua.edu.cn/tuna/tunight/2023-05-14-llm-chatbot/video.mp4
 categories:
   - event
 tags:
@@ -26,4 +27,3 @@ tags:
 * 活动形式：线下 + 线上会议 + 直播
   * 地点：三教 1201
   * 线上会议：Zoom 992 1617 2839 密码 20230514
-  * 直播链接：YouTube，开始后公布
