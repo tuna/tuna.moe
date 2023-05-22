@@ -9,7 +9,7 @@ video: https://mirrors.tuna.tsinghua.edu.cn/tuna/tunight/2023-05-14-llm-chatbot/
 categories:
   - event
 tags:
-  - tunight
+  - ustc
   - llm
   - chatbot
 ---
