@@ -5,8 +5,8 @@ date: 2018-12-01
 time: 19:00-21:00
 place: 三教 1301
 author: Xavier Yao
-video: https://cloud.tsinghua.edu.cn/f/adb437b8eb9449989db9/
-slides: https://cloud.tsinghua.edu.cn/f/30d185bddd964453a6b1/
+slides: https://mirrors.tuna.tsinghua.edu.cn/tuna/tunight/2018-11-29-distrng/slides.pdf
+video: https://mirrors.tuna.tsinghua.edu.cn/tuna/tunight/2018-11-29-distrng/video.flv
 categories:
   - event
 tags:

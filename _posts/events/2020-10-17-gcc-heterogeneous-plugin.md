@@ -5,8 +5,8 @@ date: 2020-10-17
 time: 19:00-21:00
 place: 法图 B101 + Zoom
 author: Shengqi Chen
-video: https://cloud.tsinghua.edu.cn/f/affdab93598341cdacc3/
-slides: https://cloud.tsinghua.edu.cn/f/3ada5967a1304629a8ae/
+slides: https://mirrors.tuna.tsinghua.edu.cn/tuna/tunight/2020-10-17-gcc-heterogeneous-plugin/slides.pptx
+video: https://mirrors.tuna.tsinghua.edu.cn/tuna/tunight/2020-10-17-gcc-heterogeneous-plugin/video.mp4
 categories:
   - event
 tags:

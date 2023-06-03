@@ -5,8 +5,8 @@ date: 2020-05-23
 time: 19:00-21:00
 place: Zoom
 author: Shengqi Chen
-video: https://cloud.tsinghua.edu.cn/d/953e8526f3d94f799631/
-slides: https://cloud.tsinghua.edu.cn/d/953e8526f3d94f799631/
+slides: https://mirrors.tuna.tsinghua.edu.cn/tuna/tunight/2020-05-23-ospp-introduction/slides/
+video: https://mirrors.tuna.tsinghua.edu.cn/tuna/tunight/2020-05-23-ospp-introduction/video/
 categories:
   - event
 tags:

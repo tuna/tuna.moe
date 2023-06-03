@@ -5,7 +5,7 @@ date: 2019-10-11
 time: 19:00-21:00
 place: 四教 4106
 author: Shengqi Chen
-video: https://cloud.tsinghua.edu.cn/f/d9f963cd9aec401787f2/
+video: https://mirrors.tuna.tsinghua.edu.cn/tuna/tunight/2019-10-11-distributed-system-and-paxos/video.mkv
 categories:
   - event
 tags:

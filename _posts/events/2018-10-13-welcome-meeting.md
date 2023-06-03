@@ -5,8 +5,8 @@ date: 2018-10-13
 time: 19:00-21:00
 place: 三教一段 1304
 author: Xavier Yao
-video: https://cloud.tsinghua.edu.cn/f/83cd6adf063745feb9eb/
-slides: https://cloud.tsinghua.edu.cn/f/2a24700d8e544aecbb2e/?dl=1
+slides: https://mirrors.tuna.tsinghua.edu.cn/tuna/tunight/2018-10-13-welcome-meeting/slides.pdf
+video: https://mirrors.tuna.tsinghua.edu.cn/tuna/tunight/2018-10-13-welcome-meeting/video.flv
 categories:
   - event
 tags:

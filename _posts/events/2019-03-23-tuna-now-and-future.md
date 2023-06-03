@@ -5,7 +5,7 @@ date: 2019-03-23
 time: 19:00-21:00
 place: 三教 1301
 author: Jiajie Chen
-video: https://cloud.tsinghua.edu.cn/f/aa125f3a5ba14ef4b1a7/
+video: https://mirrors.tuna.tsinghua.edu.cn/tuna/tunight/2019-03-23-tuna-now-and-future/video.mkv
 categories:
   - event
 tags:

@@ -6,7 +6,8 @@ time: 19:00-21:00
 place: 三教 1307
 author: Xavier Yao
 video: https://cloud.tsinghua.edu.cn/f/6d5840ca58cc4926b6e2/
-slides: /assets/slides/NFC-WebUSB.pdf
+slides: https://mirrors.tuna.tsinghua.edu.cn/tuna/tunight/2018-10-27-webusb/slides.pdf
+video: https://mirrors.tuna.tsinghua.edu.cn/tuna/tunight/2018-10-27-webusb/video.flv
 categories:
   - event
 tags:

@@ -5,7 +5,7 @@ date: 2018-12-29
 time: 19:00-21:30
 place: 三教 1300
 author: Harry Chen
-video: https://cloud.tsinghua.edu.cn/f/1e1a0f1abed54b36aaaa/
+video: https://mirrors.tuna.tsinghua.edu.cn/tuna/tunight/2018-12-29-gentoo-bootstrap/video.mkv
 categories:
   - event
 tags:

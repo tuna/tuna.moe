@@ -5,8 +5,8 @@ date: 2020-04-25
 time: 19:00-21:00
 place: Zoom
 author: Shengqi Chen
-video: https://cloud.tsinghua.edu.cn/f/f398726943ab439d8b0d/
-slides: https://cloud.tsinghua.edu.cn/f/cd8bb34a7dc1474eb688/
+video: https://mirrors.tuna.tsinghua.edu.cn/tuna/tunight/2020-04-25-generics-and-metaprogramming/video.mp4
+slides: https://mirrors.tuna.tsinghua.edu.cn/tuna/tunight/2020-04-25-generics-and-metaprogramming/slides.pdf
 categories:
   - event
 tags:

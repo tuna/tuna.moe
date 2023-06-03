@@ -5,8 +5,8 @@ date: 2020-05-16
 time: 19:00-21:00
 place: Zoom
 author: Shengqi Chen
-slides: https://cloud.tsinghua.edu.cn/f/6abcbae919064bdcbffe/
-video: https://cloud.tsinghua.edu.cn/f/73603c2d44d443c6b39f/
+slides: https://mirrors.tuna.tsinghua.edu.cn/tuna/tunight/2020-05-16-windows-on-aarch64-phone/slides.pdf
+video: https://mirrors.tuna.tsinghua.edu.cn/tuna/tunight/2020-05-16-windows-on-aarch64-phone/video/
 categories:
   - event
 tags:

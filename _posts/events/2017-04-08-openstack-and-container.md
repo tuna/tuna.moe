@@ -5,6 +5,7 @@ date: 2017-04-08
 time: 14:00 - 17:00
 place: 李兆基大楼 iCenter 一层右侧 B148
 author: Jason Lau
+video: https://mirrors.tuna.tsinghua.edu.cn/tuna/tunight/2017-04-08-openstack-and-container/video.mp4
 categories:
   - event
 tags:

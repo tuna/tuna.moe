@@ -5,8 +5,8 @@ date: 2019-05-25
 time: 19:00-21:00
 place: 三教 1301
 author: Jiajie Chen
-slides: https://cloud.tsinghua.edu.cn/f/b134d641ca84442f903c/
-video: https://cloud.tsinghua.edu.cn/f/78c7479a3d3f4374974a/
+slides: https://mirrors.tuna.tsinghua.edu.cn/tuna/tunight/2019-05-25-parsing-from-scratch/slides.pdf
+video: https://mirrors.tuna.tsinghua.edu.cn/tuna/tunight/2019-05-25-parsing-from-scratch/video.mkv
 categories:
   - event
 tags:

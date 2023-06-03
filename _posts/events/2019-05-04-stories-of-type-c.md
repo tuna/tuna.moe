@@ -5,8 +5,8 @@ date: 2019-05-04
 time: 19:00-21:00
 place: 三教 1301
 author: Jiajie Chen
-slides: https://cloud.tsinghua.edu.cn/f/89c8defbcb81495aabf4/
-video: https://cloud.tsinghua.edu.cn/f/4bfae9073c0341a8a60c/
+slides: https://mirrors.tuna.tsinghua.edu.cn/tuna/tunight/2019-05-04-stories-of-type-c/slides.pdf
+video: https://mirrors.tuna.tsinghua.edu.cn/tuna/tunight/2019-05-04-stories-of-type-c/video.mkv
 categories:
   - event
 tags:

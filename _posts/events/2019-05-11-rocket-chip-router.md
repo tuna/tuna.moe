@@ -5,8 +5,8 @@ date: 2019-05-11
 time: 19:00-21:00
 place: 三教 1301
 author: Jiajie Chen
-slides: https://cloud.tsinghua.edu.cn/f/fd5fa2d4306543a0b1e3/
-video: https://cloud.tsinghua.edu.cn/f/1cad196ecc424d51b8d6/
+slides: https://mirrors.tuna.tsinghua.edu.cn/tuna/tunight/2019-05-11-rocket-chip-router/slides.pdf
+video: https://mirrors.tuna.tsinghua.edu.cn/tuna/tunight/2019-05-11-rocket-chip-router/video.mkv
 categories:
   - event
 tags:

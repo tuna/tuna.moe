@@ -5,6 +5,7 @@ date: 2018-11-17
 time: 19:00-21:00
 place: 三教 1301
 author: Xavier Yao
+video: https://mirrors.tuna.tsinghua.edu.cn/tuna/tunight/2018-11-14-ceph/video.flv
 categories:
   - event
 tags:

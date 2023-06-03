@@ -5,8 +5,8 @@ date: 2019-06-01
 time: 19:00-21:00
 place: 三教 1301
 author: Jiajie Chen
-slides: https://cloud.tsinghua.edu.cn/d/02c855ee3ccd41e6b13f/
-video: https://cloud.tsinghua.edu.cn/d/02c855ee3ccd41e6b13f/
+slides: https://mirrors.tuna.tsinghua.edu.cn/tuna/tunight/2019-06-01-sdr-and-usrp/slides.pdf
+video: https://mirrors.tuna.tsinghua.edu.cn/tuna/tunight/2019-06-01-sdr-and-usrp/video/
 categories:
   - event
 tags:

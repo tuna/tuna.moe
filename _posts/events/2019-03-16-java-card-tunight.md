@@ -5,7 +5,7 @@ date: 2019-03-16
 time: 19:00-21:00
 place: 三教 1301
 author: Harry Chen
-video: https://cloud.tsinghua.edu.cn/f/868f769778df43db9f67/
+video: https://mirrors.tuna.tsinghua.edu.cn/tuna/tunight/2019-03-16-java-card/video.mkv
 categories:
   - event
 tags:

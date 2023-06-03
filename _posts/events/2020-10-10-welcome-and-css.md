@@ -5,8 +5,8 @@ date: 2020-10-10
 time: 19:00-21:00
 place: 六教 6A405 + Zoom
 author: Shengqi Chen
-slides: https://cloud.tsinghua.edu.cn/f/b4447749ad4c447ba968/
-video: https://cloud.tsinghua.edu.cn/f/5478a87094e147138c5c/
+slides: https://mirrors.tuna.tsinghua.edu.cn/tuna/tunight/2020-10-10-welcome-and-css/slides.pdf
+video: https://mirrors.tuna.tsinghua.edu.cn/tuna/tunight/2020-10-10-welcome-and-css/video.mp4
 categories:
   - event
 tags:
