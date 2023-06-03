@@ -5,6 +5,8 @@ date: 2023-05-27
 time: 19:00-21:00
 place: 三教 3104
 author: Yipeng Liu
+slides: https://mirrors.tuna.tsinghua.edu.cn/tuna/tunight/2023-05-27-lightweight-wysiwyg-editing/slides.pdf
+video: https://mirrors.tuna.tsinghua.edu.cn/tuna/tunight/2023-05-27-lightweight-wysiwyg-editing/video.mp4
 categories:
   - event
 tags:
