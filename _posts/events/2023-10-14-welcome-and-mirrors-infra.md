@@ -27,6 +27,6 @@ tags:
 * 活动形式：线下 + 线上会议 + 直播
   * 地点：旧经管报告厅
   * 线上会议：Zoom [918 7195 6548], 密码 20231012
-  * 直播链接：YouTube，开始后公布
+  * 直播链接：[YouTube](https://www.youtube.com/watch?v=_xFuJApjFh4)
 
 欢迎一起来玩！
