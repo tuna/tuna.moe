@@ -1,7 +1,5 @@
 ---
 ---
-{% putbabelpolyfill -%}
-{% babel %}
 (function() {
   const calendarUrl = '{{ "/cal.ics" | prepend: site.baseurl }}';
 
@@ -106,4 +104,3 @@
 
   document.addEventListener('DOMContentLoaded', renderCalendar);
 })();
-{% endbabel %}

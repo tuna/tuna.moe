@@ -1,24 +1,21 @@
 <!-- Fixed navbar -->
-<div class="navbar navbar-default navbar-fixed-top" role="navigation">
-  <div class="container">
+<div class="navbar navbar-default navbar-expand-lg mt-3 bg-body" role="navigation">
+  <div class="container-fluid container-xl">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
       <a class="navbar-brand" href="/"><!--
    -->{% include pic.html name="logo-small" %} {{ site.brand }}</a>
     </div>
-    <div class="navbar-collapse collapse navbar-right">
-      <ul class="nav navbar-nav">
-        <li {% if page.permalink == "/" %}class="active"{% endif %}><a href="{{"/" | prepend: site.baseurl }}">HOME</a></li>
-        <li {% if page.permalink == "/events/" or page.categories contains "event"  %}class="active"{% endif %}><a href="{{"/events/" | prepend: site.baseurl }}">EVENTS</a></li>
-        <li {% if page.permalink == "/blog/" or page.categories contains "blog" %}class="active"{% endif %}><a href="{{"/blog/" | prepend: site.baseurl }}">BLOG</a></li>
-        <li><a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a></li>
-        <li><a href="https://podcast.tuna.moe/">PODCAST</a></li>
-        <li><a href="http://mirrors.tuna.tsinghua.edu.cn/">MIRRORS</a></li>
+    <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      {% fa_svg fas.fa-bars %}
+    </button>
+    <div class="navbar-collapse collapse justify-content-end" id="navbarNavDropdown">
+      <ul class="nav navbar-nav" role="menubar">
+        <li role="none" class="nav-item"><a role="menuitem" class="nav-link {% if page.permalink == "/" %}active{% endif %}" href="{{"/" | prepend: site.baseurl }}">HOME</a></li>
+        <li role="none" class="nav-item"><a role="menuitem" class="nav-link {% if page.permalink == "/events/" or page.categories contains "event"  %}active{% endif %}" href="{{"/events/" | prepend: site.baseurl }}">EVENTS</a></li>
+        <li role="none" class="nav-item"><a role="menuitem" class="nav-link {% if page.permalink == "/blog/" or page.categories contains "blog" %}active{% endif %}" href="{{"/blog/" | prepend: site.baseurl }}">BLOG</a></li>
+        <li role="none" class="nav-item"><a role="menuitem" class="nav-link" href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a></li>
+        <li role="none" class="nav-item"><a role="menuitem" class="nav-link" href="https://podcast.tuna.moe/">PODCAST</a></li>
+        <li role="none" class="nav-item"><a role="menuitem" class="nav-link" href="http://mirrors.tuna.tsinghua.edu.cn/">MIRRORS</a></li>
       </ul>
     </div><!--/.nav-collapse -->
   </div>

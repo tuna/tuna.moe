@@ -1,0 +1,103 @@
+@use "../styles/bootstrap_vars" as bs;
+@use "sass:map";
+
+$icon-font-path: "bootstrap-sass/assets/fonts/bootstrap/";
+$navbar-default-bg: transparent;
+$navbar-default-border: transparent;
+$navbar-padding-vertical: 0;
+$navbar-padding-horizontal: 0;
+
+$screen-sm-min: map-get(bs.$grid-breakpoints, "sm");
+$screen-md-min: map-get(bs.$grid-breakpoints, "md");
+$screen-lg-min: map-get(bs.$grid-breakpoints, "lg");
+
+html {
+  @import "bootstrap-sass";
+  .fade {
+    @extend .in;
+  }
+  .d-bs3-block {
+    display: block !important;
+  }
+  @each $display in block inline-block inline table table-row table-cell none {
+    .d-bs3-#{$display} {
+      display: $display !important;
+    }
+  }
+  .d-bs3-def-none {
+    display: none !important;
+  }
+  @media (min-width: 0) {
+    div.d-bs3-def-none {
+      display: block !important;
+      @media (min-width: $screen-lg-min) {
+        display: none !important;
+      }
+    }
+    td,
+    th {
+      &.d-bs3-def-none {
+        display: table-cell !important;
+        @media (min-width: $screen-lg-min) {
+          display: none !important;
+        }
+      }
+    }
+  }
+  .btn-close {
+    display: none;
+  }
+  .visually-hidden {
+    @extend .sr-only;
+  }
+  .badge {
+    @extend .label;
+  }
+  @each $kind in default primary success info warning danger {
+    .badge.text-bg-#{$kind} {
+      @extend .label-#{$kind};
+    }
+  }
+  .navbar .justify-content-end {
+    @extend .navbar-right;
+  }
+  .navbar > .container-fluid {
+    display: block;
+  }
+  tr.row::before {
+    content: none;
+    display: none;
+  }
+  .row {
+    display: block;
+  }
+  table.row {
+    display: table;
+  }
+  tr.row {
+    display: table-row;
+  }
+  .container-fluid {
+    display: block;
+  }
+  .modal-header {
+    display: block;
+  }
+  div.row {
+    td,
+    th {
+      &[class*="col-"] {
+        display: block;
+        float: left;
+      }
+    }
+  }
+  @for $i from 1 through 12 {
+    .col-#{$i} {
+      @extend .col-xs-#{$i};
+    }
+  }
+  .nav.flex-column {
+    @extend .nav-stacked;
+  }
+}

@@ -1,54 +1,55 @@
 ---
 layout: default
 permalink: /
+jsEntry: main
 ---
 
 <div id="service">
   <div class="container">
     <div class="row">
-      <div class="col-md-12">
+      <div class="col-lg-12">
         <h2># 线上服务 </h2>
       </div>
     </div>
-    <div class="row centered" id="service-list">
-      <div class="col-md-3 col-xs-6">
+    <div class="row text-center mt-5" id="service-list">
+      <div class="col-lg-3 col-6">
         <a href="https://mirrors.tuna.tsinghua.edu.cn/">{% include pic.html name="service/mirrors" %}</a>
         <h4>开源镜像站 <a href="https://mirrors.tuna.tsinghua.edu.cn/">{% fa_svg far.fa-hand-point-right %}</i></a></h4>
         <p>多快好省</p>
       </div>
-      <div class="col-md-3 col-xs-6">
+      <div class="col-lg-3 col-6">
         <a href="{{ "/help/dns/" | prepend: site.baseurl }}">{% include pic.html name="service/dns" %}</a>
         <h4>DNS666 <a href="{{ "/help/dns/" | prepend: site.baseurl }}">{% fa_svg far.fa-hand-point-right %}</a></h4>
         <p>101.6.6.6 / 2001:da8::666</p>
       </div>
-      <div class="col-md-3 col-xs-6">
+      <div class="col-lg-3 col-6">
         <a href="{{ "/help/ntp/" | prepend: site.baseurl }}">{% include pic.html name="service/ntp" %}</a>
         <h4>网络授时 <a href="{{ "/help/ntp/" | prepend: site.baseurl }}">{% fa_svg far.fa-hand-point-right %}</a></h4>
         <p>准时准点</p>
       </div>
 {% unless site.isthu %}
-      <div class="col-md-3 col-xs-6">
+      <div class="col-lg-3 col-6">
         <a href="https://fishroom.tuna.moe/">{% include pic.html name="service/fishroom" %}</a>
         <h4>鱼屋 <a href="https://fishroom.tuna.moe/">{% fa_svg far.fa-hand-point-right %}</a></h4>
         <p>一起聊天</p>
       </div>
-      <div class="col-md-3 col-xs-6">
+      <div class="col-lg-3 col-6">
         <a href="https://live.tuna.tsinghua.edu.cn/">{% include pic.html name="service/live" %}</a>
         <h4>直播 <a href="https://live.tuna.tsinghua.edu.cn/">{% fa_svg far.fa-hand-point-right %}</a></h4>
         <p>TUNA TV</p>
       </div>
-      <div class="col-md-3 col-xs-6">
+      <div class="col-lg-3 col-6">
         <a href="http://dm.tuna.moe/">{% include pic.html name="service/danmaku" %}</a>
         <h4>弹幕 <a href="http://dm.tuna.moe/">{% fa_svg far.fa-hand-point-right %}</a></h4>
         <p>互动演讲</p>
       </div>
-      <div class="col-md-3 col-xs-6">
+      <div class="col-lg-3 col-6">
         <a href="{{ "/cal/" | prepend: site.baseurl }}">{% include pic.html name="service/calendar" %}</a>
         <h4>活动日历 <a href="{{ "/cal/" | prepend: site.baseurl }}">{% fa_svg far.fa-hand-point-right %}</a></h4>
         <p>不要错过活动</p>
       </div>
 {% endunless %}
-      <div class="col-md-3 col-xs-6">
+      <div class="col-lg-3 col-6">
         <a href="https://github.com/tuna/issues/">{% include pic.html name="service/issues" %}</a>
         <h4>Issues <a href="https://github.com/tuna/issues/">{% fa_svg far.fa-hand-point-right %}</a></h4>
         <p>Bug 提交/意见反馈</p>
@@ -59,19 +60,19 @@ permalink: /
 
 <div class="container">
   <div class="row">
-    <div id="recent-events" class="col-md-6 col-md-push-6">
-      <h2> # 活动公告 </h2> 
-      {% for event in site.categories['event'] limit:5 %} 
-      <div class="event" data-event-date="{{event.date | date: "%F"}}">
+    <div id="recent-events" class="col-lg-6 order-lg-1">
+      <h2> # 活动公告 </h2>
+      {% for event in site.categories['event'] limit:5 %}
+      <div class="event pb-3">
         <div class="event-title">
           <a href="{{ event.url | prepend: site.baseurl }}">
              <h4>{{ event.title }}</h4>
           </a>
         </div>
-        <div class="event-meta">
-          <span><strong>时间: </strong>{{event.date | date: "%F"}}{% if event.time %} {{event.time}} {% endif %}</span>
-          <span><strong>地点:</strong> {{event.place}}</span>
-          <span class="event-status">
+        <div class="event-meta mb-2">
+          <span class="me-2"><strong>时间: </strong>{{event.date | date: "%F"}}{% if event.time %} {{event.time}} {% endif %}</span>
+          <span class="me-2"><strong>地点:</strong> {{event.place}}</span>
+          <span class="event-status" data-event-date="{{event.date | date: "%F"}}">
           </span>
         {% if event.video or event.slides or event.youtube or event.audio %}
         <br>
@@ -94,36 +95,36 @@ permalink: /
         {{ event.excerpt | strip_html | truncate: 240, '...'}}
         </div>
       </div>
-      {% endfor %} 
+      {% endfor %}
       <div>
         <a href={{"/events/"|prepend: site.baseurl}}>{% fa_svg far.fa-hand-point-right %} 所有活动</a>
       </div>
     </div>
-    <div id="recent-posts" class="col-md-6 col-md-pull-6">
-      <h2> # 最近文章 </h2> 
-      {% for post in site.categories['blog'] limit:5 %} 
-      <div class="post">
+    <div id="recent-posts" class="col-lg-6 order-lg-0">
+      <h2> # 最近文章 </h2>
+      {% for post in site.categories['blog'] limit:5 %}
+      <div class="post pb-3">
         <div class="post-title">
           <a href="{{ post.url | prepend: site.baseurl }}">
              <h4>{% fa_svg fas.fa-file-lines %} {{ post.title }}</h4>
           </a>
         </div>
-        <div class="post-meta">
+        <div class="post-meta text-secondary mb-2">
           {{post.author}}, {{post.date | date: "%Y-%-m-%-d"}}
         </div>
         <div class="post-abstract">
         {{ post.excerpt | strip_html | truncate: 240, '...'}}
         </div>
       </div>
-      {% endfor %} 
+      {% endfor %}
       <div>
         <a href={{"/blog/"|prepend: site.baseurl}}>{% fa_svg far.fa-hand-point-right %} 所有文章</a>
       </div>
     </div>
   </div>
   <div class="row">
-  <div id="join-tuna" class="col-md-12">
-    <h2> # 加入我们 </h2> 
+  <div id="join-tuna" class="col-lg-12">
+    <h2> # 加入我们 </h2>
     <h4>订阅邮件列表</h4>
     <p>发送任意内容邮件到 <a href="mailto:tuna-general+subscribe@googlegroups.com">tuna-general+subscribe@googlegroups.com</a>, 并回复确认邮件。</p>
     <h4>加入 Telegram 群组</h4>
@@ -134,58 +135,15 @@ permalink: /
   </div>
 </div>
 
-<div id="join-button" class="visible-xs">
+<div id="join-button" class="d-lg-none position-fixed bottom-0 w-100 z-3 border-top bg-body p-3">
   <div class="container">
     <div class="row">
-      <div class="btn-group btn-group-justified col-xs-12">
+      <div class="btn-group btn-group-justified col-12">
         <a class="btn btn-large btn-success" href="https://join.tuna.tsinghua.edu.cn/"> 加入TUNA / Join Us </a>
       </div>
     </div>
   </div>
 </div>
-
-
-<script type="text/javascript">
-$(document).ready(function(){
-  $('[data-toggle="tooltip"]').tooltip();
-
-  var today = function() { 
-    var pad = function (number) {
-      var r = String(number);
-      if ( r.length === 1 ) {
-        r = '0' + r;
-      }
-      return r;
-    }
-
-    var _today = new Date();
-    return Date.parse(
-      _today.getFullYear().toString() + "-"
-      + pad(_today.getMonth()+1) + "-"
-      + pad(_today.getDate())
-    );
-
-  }();
-
-  $('#recent-events .event').each(function() {
-    // console.log($(this).attr("data-event-date"));
-    var event_date = Date.parse($(this).attr("data-event-date")),
-        label = "";
-    if (today > event_date) {
-      label = "<span class='label label-info'>Finished</span>";
-    } else {
-      label = "<span class='label label-warning'>Upcoming</span>";
-    }
-    $(this).find(".event-status").append(label);
-  });
-});
-</script>
-
-<style>
-  .event-download-button {
-    width: 10px
-  }
-</style>
 
 <!--
 vim: ts=2 sts=2 sw=2 expandtab
