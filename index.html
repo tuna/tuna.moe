@@ -78,16 +78,16 @@ jsEntry: main
         <br>
         <span><strong>资源链接: </strong></span>
         {% if event.audio %}
-        <a data-toggle="tooltip" title="录音下载" class="label label-info" href="{{event.audio}}" target="_blank">{% fa_svg fas.fa-headphones %}</a>
+        <a data-toggle="tooltip" title="录音下载" class="badge text-bg-info" href="{{event.audio}}" target="_blank">{% fa_svg fas.fa-headphones %}</a>
         {% endif %}
         {% if event.video %}
-        <a data-toggle="tooltip" title="录像下载" class="label label-info" href="{{event.video}}" target="_blank">{% fa_svg fas.fa-video %}</a>
+        <a data-toggle="tooltip" title="录像下载" class="badge text-bg-info" href="{{event.video}}" target="_blank">{% fa_svg fas.fa-video %}</a>
         {% endif %}
         {% if event.youtube %}
-        <a data-toggle="tooltip" title="YouTube 在线播放" class="label label-info" href="{{event.youtube}}" target="_blank">{% fa_svg fab.fa-youtube %}</a>
+        <a data-toggle="tooltip" title="YouTube 在线播放" class="badge text-bg-info" href="{{event.youtube}}" target="_blank">{% fa_svg fab.fa-youtube %}</a>
         {% endif %}
         {% if event.slides %}
-        <a data-toggle="tooltip" title="讲稿下载" class="label label-info" href="{{event.slides}}" target="_blank">{% fa_svg fas.fa-file %}</a>
+        <a data-toggle="tooltip" title="讲稿下载" class="badge text-bg-info" href="{{event.slides}}" target="_blank">{% fa_svg fas.fa-file %}</a>
         {% endif %}
         {% endif %}
         </div>
