@@ -16,7 +16,7 @@ jobs:
       - name: Build the site in the tunathu/mirror-web container
         run: |
           echo "Working on ref ${{github.ref}}"
-          docker run --user "$(id -u):$(id -g)" --env JEKYLL_ENV="production" -v ${{ github.workspace }}:/data tunathu/mirror-web:latest jekyll build --future
+          docker run --user "$(id -u):$(id -g)" --env JEKYLL_ENV="production" -v ${{ github.workspace }}:/data tunathu/mirror-web:legacy jekyll build --future
       - name: Upload artifacts
         if: ${{ github.ref == 'refs/heads/master' }}
         uses: actions/upload-pages-artifact@v1
