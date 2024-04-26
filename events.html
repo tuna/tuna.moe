@@ -2,43 +2,45 @@
 layout: default
 title: 活动公告
 permalink: /events/
+jsEntry: event
 ---
 
 <div class="container mtb">
   <div class="row">
 
     <!-- BLOG POSTS LIST -->
-    <div class="col-lg-10 col-lg-offset-1" id="events-list">
+    <div class="col-lg-10 offset-lg-1" id="events-list">
 
       {% for event in site.categories['event'] %}
       <!-- Blog Post -->
-      <div class="row event" data-event-date="{{event.date | date: "%F"}}">
+      <div class="row event">
         <div class="col-lg-9">
           <div class="event-title">
             <a href="{{ event.url | prepend: site.baseurl }}"><h3 class="ctitle">{{ event.title }}</h3></a>
           </div>
-          <div class="event-meta">
-            <span><strong>{% fa_svg fas.fa-calendar %} 时间: </strong>{{event.date | date: "%F"}}{% if event.time %} {{event.time}} {% endif %}</span>
-            <span><strong>{% fa_svg fas.fa-location-dot %} 地点:</strong> {{event.place}}</span>
+          <div class="event-meta mb-3">
+            <span class="me-3"><strong>{% fa_svg fas.fa-calendar %} 时间: </strong>{{event.date | date: "%F"}}{% if event.time %} {{event.time}} {% endif %}</span>
+            <span class="me-3"><strong>{% fa_svg fas.fa-location-dot %} 地点:</strong> {{event.place}}</span>
             <span class="event-tags">
               {% for tag in event.tags %}
-              <span class="label label-success">{{tag}}</span>
+              <span class="badge text-bg-success">{{tag}}</span>
               {% endfor %}
+              <span class="event-status" data-event-date="{{event.date | date: "%F"}}" data-hide-finished></span>
             </span>
             {% if event.video or event.slides or event.youtube or event.audio %}
             <br>
             <span><strong>{% fa_svg fas.fa-cloud-arrow-down %} 资源链接: </strong></span>
             {% if event.audio %}
-            <a data-toggle="tooltip" title="录音下载" class="label label-info" href="{{event.audio}}" target="_blank">{% fa_svg fas.fa-headphones %}</a>
+            <a data-toggle="tooltip" title="录音下载" class="badge text-bg-info" href="{{event.audio}}" target="_blank">{% fa_svg fas.fa-headphones %}</a>
             {% endif %}
             {% if event.video %}
-            <a data-toggle="tooltip" title="录像下载" class="label label-info" href="{{event.video}}" target="_blank">{% fa_svg fas.fa-video %}</a>
+            <a data-toggle="tooltip" title="录像下载" class="badge text-bg-info" href="{{event.video}}" target="_blank">{% fa_svg fas.fa-video %}</a>
             {% endif %}
             {% if event.youtube %}
-            <a data-toggle="tooltip" title="YouTube 在线播放" class="label label-info" href="{{event.youtube}}" target="_blank">{% fa_svg fab.fa-youtube %}</a>
+            <a data-toggle="tooltip" title="YouTube 在线播放" class="badge text-bg-info" href="{{event.youtube}}" target="_blank">{% fa_svg fab.fa-youtube %}</a>
             {% endif %}
             {% if event.slides %}
-            <a data-toggle="tooltip" title="讲稿下载" class="label label-info" href="{{event.slides}}" target="_blank">{% fa_svg fas.fa-file %}</a>
+            <a data-toggle="tooltip" title="讲稿下载" class="badge text-bg-info" href="{{event.slides}}" target="_blank">{% fa_svg fas.fa-file %}</a>
             {% endif %}
             {% endif %}
           </div>
@@ -50,14 +52,12 @@ permalink: /events/
 
         <div class="col-lg-3">
           {% if event.poster %}
-          <img class="img-responsive event-poster" src="{%if event.poster contains 'http:' or event.poster contains 'https:'%}{{event.poster}}{%else%}{{"/assets/img/events/"|prepend: site.baseurl}}{{event.poster}}{%endif%}" />
+          <img class="img-fluid event-poster" src="{%if event.poster contains 'http:' or event.poster contains 'https:'%}{{event.poster}}{%else%}{{"/assets/img/events/"|prepend: site.baseurl}}{{event.poster}}{%endif%}" />
           {% endif %}
         </div>
 
       </div>
-
-      <div class="hline"></div>
-      <div class="spacing"></div>
+      <hr />
       {% endfor %}
 
     </div><!--/col-lg-8 -->

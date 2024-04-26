@@ -7,6 +7,7 @@
   $link-decoration: none,
   $link-hover-decoration: none
 );
+@use "./badge.scss";
 
 $color_thu_purple_dark: #c353d3;
 $footer_color: #384452;
