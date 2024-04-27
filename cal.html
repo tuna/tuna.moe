@@ -2,45 +2,25 @@
 layout: default
 title: 活动日历
 permalink: /cal/
+jsEntry: cal
 ---
 
 {% assign ics_url = "/cal.ics" | prepend: site.baseurl %}
 
 <div class="container">
   <h2># 活动日历</h2>
-  <div class="row col-md-12">
-    <div class="col-md-3"></div>
-    <div class="col-md-6 col-xs-6 text-center">
-      <h3 id="current"></h3>
+  <div id="cal"></div>
+  <div id="subscribe-methods" class="row">
+    <div class="col-12">
+      <h3>订阅方式</h3>
+      <p>iCal（不可下载，复制链接至日历软件中）:
+        <a href="{{ ics_url }}">TUNA 首页生成</a> /
+        <a href="https://www.google.com/calendar/ical/fphr1e519jsbi6dg2pll7kttt4%40group.calendar.google.com/public/basic.ics">Google 日历</a>
+      </p>
+      <p>Google 日历网页（点击右下角加号）: <a
+          href="https://calendar.google.com/calendar/embed?src=fphr1e519jsbi6dg2pll7kttt4%40group.calendar.google.com&ctz=Asia%2FShanghai">TUNA 活动</a>
+      </p>
     </div>
-    <div class="col-md-3 col-xs-6 text-center btn-group cal-ctrl-grp">
-      <button class="btn btn-primary cal-ctrl-btn" id="prev">{% fa_svg fas.fa-angle-left %}</button>
-      <button class="btn btn-default cal-ctrl-btn" id="today">Now</button>
-      <button class="btn btn-primary cal-ctrl-btn" id="next">{% fa_svg fas.fa-angle-right %}</button>
-    </div>
-  </div>
-  <!-- <div class="spacing"></div> -->
-  <div class="row">
-    <div class="spacing"></div>
-    <div id="calendar"></div>
-    <div class="spacing"></div>
-  </div>
-  <div id="subscribe-methods" class="col-md-12">
-    <h3>订阅方式</h3>
-    <p>iCal（不可下载，复制链接至日历软件中）: 
-      <a href="{{ ics_url }}">TUNA 首页生成</a> / 
-      <a href="https://www.google.com/calendar/ical/fphr1e519jsbi6dg2pll7kttt4%40group.calendar.google.com/public/basic.ics">Google 日历</a>
-    </p>
-    <p>Google 日历网页（点击右下角加号）: <a
-        href="https://calendar.google.com/calendar/embed?src=fphr1e519jsbi6dg2pll7kttt4%40group.calendar.google.com&ctz=Asia%2FShanghai">TUNA 活动</a>
-    </p>
   </div>
 </div>
-
-
-<script src="https://cdn.jsdelivr.net/npm/ical.js@1.5.0/build/ical.min.js"></script>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@toast-ui/calendar@2.1.3/dist/toastui-calendar.min.css" />
-<link rel="stylesheet" href="{{ "/assets/css/cal.css" | prepend: site.baseurl }}?{{ site.data['hash'] }}" />
-
-<script src="https://cdn.jsdelivr.net/npm/@toast-ui/calendar@2.1.3/dist/toastui-calendar.min.js"></script>
-<script src="{{ "/assets/js/cal.js" | prepend: site.baseurl }}?{{ site.data['hash'] }}"></script>
+<!--{% fa_svg fas.fa-angle-left %}{% fa_svg fas.fa-angle-right %}-->

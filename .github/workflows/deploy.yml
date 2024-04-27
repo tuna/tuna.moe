@@ -6,7 +6,7 @@ on:
   pull_request:
     branches: [master]
 
-jobs: 
+jobs:
   build_and_upload:
     runs-on: ubuntu-latest
     steps:
@@ -16,13 +16,20 @@ jobs:
       - name: Build the site in the tunathu/mirror-web container
         run: |
           echo "Working on ref ${{github.ref}}"
-          docker run --user "$(id -u):$(id -g)" --env JEKYLL_ENV="production" -v ${{ github.workspace }}:/data tunathu/mirror-web:legacy jekyll build --future
+          docker run --user "$(id -u):$(id -g)" --env NODE_ENV=production --env HOME=/tmp -v ${{ github.workspace }}:/data tunathu/mirror-web:latest npm ci
+          docker run --user "$(id -u):$(id -g)" --env JEKYLL_ENV="production" -v ${{ github.workspace }}:/data tunathu/mirror-web:latest jekyll build --future
       - name: Upload artifacts
         if: ${{ github.ref == 'refs/heads/master' }}
         uses: actions/upload-pages-artifact@v1
         with:
           path: '_site/'
           name: 'gh-pages-${{github.sha}}'
+      - name: Upload artifacts
+        if: ${{ github.ref != 'refs/heads/master' }}
+        uses: actions/upload-artifact@v4
+        with:
+          path: '_site'
+          name: gh-pages-${{github.sha}}
 
   deploy:
     runs-on: ubuntu-latest

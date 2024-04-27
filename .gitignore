@@ -2,11 +2,11 @@
 _site
 .sass-cache/
 .jekyll-cache/
-Gemfile.lock
 .jekyll-metadata
 *.swp
 *~
 .bundle
 vendor
 .vscode/
-
+/node_modules/
+_stats.html

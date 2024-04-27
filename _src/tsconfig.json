@@ -1,0 +1,13 @@
+{
+  "include": ["**/*.ts", "**/*.js", "**/*.vue"],
+  "files": [
+    "../.jekyll-cache/vite-components.d.ts",
+    "lib/shims/vue.d.ts",
+  ],
+  "compilerOptions": {
+    "isolatedModules": true,
+    "target": "ESNext",
+    "moduleResolution": "Bundler",
+    "module": "ESNext"
+  }
+}

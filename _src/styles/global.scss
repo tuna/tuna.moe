@@ -1,0 +1,217 @@
+@use "./utils.scss" as utils;
+@use "sass:map";
+@use "./lato.scss" as Lato;
+
+@use "bootstrap" as bs with (
+  $color-mode-type: media-query,
+  $link-decoration: none,
+  $link-hover-decoration: none
+);
+@use "./badge.scss";
+
+$color_thu_purple_dark: #c353d3;
+$footer_color: #384452;
+
+$color_thu_purple: #82318e;
+
+:root {
+  color-scheme: light dark;
+}
+
+@include Lato.lato-include-font("Bold", "Normal");
+@include Lato.lato-include-font("Regular", "Italic");
+@include Lato.lato-include-font("Regular", "Normal");
+
+@font-face {
+  font-family: "Source Code Pro";
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  src:
+    url("source-code-pro/WOFF2/TTF/SourceCodePro-Regular.ttf.woff2")
+      format("woff2"),
+    url("source-code-pro/WOFF/OTF/SourceCodePro-Regular.otf.woff")
+      format("woff"),
+    url("source-code-pro/OTF/SourceCodePro-Regular.otf") format("opentype"),
+    url("source-code-pro/TTF/SourceCodePro-Regular.ttf") format("truetype");
+}
+
+:root.wf-active {
+  --bs-font-sans-serif: Lato, #{bs.$font-family-sans-serif};
+  --bs-font-monospace: "Source Code Pro", #{bs.$font-family-monospace};
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+pre {
+  @extend .border;
+  @extend .rounded;
+  @extend .p-2;
+  @extend .bg-secondary-subtle;
+  code {
+    @extend .p-0;
+  }
+}
+
+code {
+  @extend .p-1;
+  @extend .rounded;
+  @extend .bg-secondary-subtle;
+}
+
+h1,
+h2,
+h3,
+.h1,
+.h2,
+.h3 {
+  margin-top: 2rem;
+}
+
+h4,
+h5,
+h6,
+.h4,
+.h5,
+.h6 {
+  margin-top: 1rem;
+}
+
+/* Footer */
+#footerwrap {
+  color: bs.$body-color-dark;
+  margin-top: 100px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background: $footer_color;
+  a {
+    color: bs.$link-color-dark;
+  }
+  a:hover {
+    color: bs.$link-hover-color-dark;
+  }
+}
+
+.spacing {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.vbottom {
+  display: inline-block;
+  vertical-align: bottom;
+  float: none;
+}
+
+.nonthu .thuhidden {
+  display: none;
+}
+
+svg.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1.42857143em;
+  fill: currentColor;
+  vertical-align: bottom;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  svg.icon {
+    height: 1.1em;
+  }
+}
+
+.content-select {
+  /* override color of form-control from bootstrap */
+  color: inherit;
+  background-color: transparent;
+}
+
+a {
+  -webkit-transition:
+    background-color 0.4s linear,
+    color 0.4s linear,
+    border-color 0.4s linear;
+  -moz-transition:
+    background-color 0.4s linear,
+    color 0.4s linea,
+    border-color 0.4s linear;
+  -o-transition:
+    background-color 0.4s linear,
+    color 0.4s linear,
+    border-color 0.4s linear;
+  -ms-transition:
+    background-color 0.4s linear,
+    color 0.4s linear,
+    border-color 0.4s linear;
+  transition:
+    background-color 0.4s linear,
+    color 0.4s linear,
+    border-color 0.4s linear;
+}
+
+.navbar-default {
+  --bs-navbar-active-color: #{$color_thu_purple};
+  --bs-navbar-hover-color: #{$color_thu_purple};
+  @include utils.dark {
+    --bs-navbar-active-color: #{$color_thu_purple_dark};
+    --bs-navbar-hover-color: #{$color_thu_purple_dark};
+  }
+  .navbar-nav > li > a.active {
+    border-bottom: 2px solid $color_thu_purple;
+    @include utils.dark {
+      border-bottom-color: $color_thu_purple_dark;
+    }
+  }
+  .navbar-nav > li > a {
+    font-weight: 700;
+    font-size: 12px;
+  }
+  .nav-link {
+    transition-duration: 0.4s;
+  }
+}
+
+.navbar-brand {
+  font-weight: 900;
+  padding: 0px;
+  line-height: 50px;
+  height: 50px;
+  img {
+    margin-right: 5px;
+  }
+}
+
+img {
+  @extend .img-fluid;
+}
+
+.text-bg-theme {
+  color: #fff !important;
+  background-color: $color_thu_purple !important;
+}
+
+$h7-font-size: bs.$font-size-base * 0.8;
+
+.fs-7 {
+  font-size: $h7-font-size !important;
+}

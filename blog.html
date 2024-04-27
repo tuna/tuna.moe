@@ -7,36 +7,34 @@ permalink: /blog/
 <div class="container mtb">
   <div class="row">
 
-    <! -- BLOG POSTS LIST -->
+    <!-- BLOG POSTS LIST -->
     <div class="col-lg-9">
 
       {% for post in site.categories['blog'] %}
-      <! -- Blog Post -->
+      <!-- Blog Post -->
       <div class="row">
         <div class="col-lg-12">
           <a href="{{ post.url | prepend: site.baseurl }}"><h3 class="ctitle">{{ post.title }}</h3></a>
-          <p><csmall>{{ post.date | date: "%b %-d, %Y" }}. | By: {{ post.author }}</csmall></p>
+          <p><span class="fs-7">{{ post.date | date: "%b %-d, %Y" }}. | By: {{ post.author }}</span></p>
         </div>
 
-        
-        <div class="{%if post.thumb%}col-lg-9{%else%}col-log-12{%endif%}">
+
+        <div class="{%if post.thumb%}col-lg-9{%else%}col-lg-12{%endif%}">
           {{ post.excerpt }}
           <p><a href="{{ post.url | prepend: site.baseurl }}">[Read More]</a></p>
         </div>
         {% if post.thumb %}
           <div class="col-lg-3">
-             <img class="img-responsive" src="{%if post.thumb contains 'http:' or post.thumb contains 'https:'%}{{post.thumb}}{%else%}{{"/assets/img/blog/"|prepend: site.baseurl}}{{post.thumb}}{%endif%}" />
+             <img class="img-fluid" src="{%if post.thumb contains 'http:' or post.thumb contains 'https:'%}{{post.thumb}}{%else%}{{"/assets/img/blog/"|prepend: site.baseurl}}{{post.thumb}}{%endif%}" />
           </div>
         {% endif %}
       </div>
-      <div class="hline"></div>
-
-      <div class="spacing"></div>
+      <hr />
       {% endfor %}
 
-    </div><! --/col-lg-8 -->
+    </div><!--/col-lg-8 -->
 
     {% include sidebar.html %}
 
-  </div><! --/row -->
-</div><! --/container -->
+  </div><!--/row -->
+</div><!--/container -->

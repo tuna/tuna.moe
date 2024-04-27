@@ -4,18 +4,17 @@ layout: default
 
 <div class="container mtb">
     <div class="row">
-        <! -- SINGLE POST -->
-        <div class="col-lg-8">
-            <! -- Blog Post  -->
+        <!-- SINGLE POST -->
+        <div class="col-lg-8 mb-3">
+            <!-- Blog Post  -->
             <a href="{{ page.url | prepend: site.baseurl }}"><h3 class="ctitle">{{ page.title }}</h3></a>
-            <p><csmall>{{ page.date | date: "%b %-d, %Y" }}. | By: {{ page.author }}</csmall></p>
-            <div class="post-content"> 
+            <p><span class="fs-7">{{ page.date | date: "%b %-d, %Y" }}. | By: {{ page.author }}</span></p>
+            <div class="post-content">
             {{ content }}
             </div>
-            <div class="spacing"></div>
-        </div><! --/col-lg-8 -->
-        
+        </div><!--/col-lg-8 -->
+
         {% include sidebar.html %}
 
-    </div><! --/row -->
-</div><! --/container -->
+    </div><!--/row -->
+</div><!--/container -->
