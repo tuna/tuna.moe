@@ -91,6 +91,11 @@ html {
         float: left;
       }
     }
+    &.flex-row-reverse {
+      > [class^="col-"] {
+        float: right;
+      }
+    }
   }
   @for $i from 1 through 12 {
     .col-#{$i} {

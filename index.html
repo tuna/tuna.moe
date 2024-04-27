@@ -59,8 +59,8 @@ jsEntry: main
 </div><!--/service -->
 
 <div class="container">
-  <div class="row">
-    <div id="recent-events" class="col-lg-6 order-lg-1">
+  <div class="row flex-row-reverse">
+    <div id="recent-events" class="col-lg-6 col-12">
       <h2> # 活动公告 </h2>
       {% for event in site.categories['event'] limit:5 %}
       <div class="event pb-3">
@@ -100,7 +100,7 @@ jsEntry: main
         <a href={{"/events/"|prepend: site.baseurl}}>{% fa_svg far.fa-hand-point-right %} 所有活动</a>
       </div>
     </div>
-    <div id="recent-posts" class="col-lg-6 order-lg-0">
+    <div id="recent-posts" class="col-lg-6 col-12">
       <h2> # 最近文章 </h2>
       {% for post in site.categories['blog'] limit:5 %}
       <div class="post pb-3">
