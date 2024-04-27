@@ -1,26 +1,22 @@
 name: Jekyll Build & Deploy
 
-on:
-  push:
-    branches: [master]
-  pull_request:
-    branches: [master]
+on: [push, pull_request]
 
 jobs:
   build_and_upload:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
           submodules: true
       - name: Build the site in the tunathu/mirror-web container
         run: |
           echo "Working on ref ${{github.ref}}"
           docker run --user "$(id -u):$(id -g)" --env NODE_ENV=production --env HOME=/tmp -v ${{ github.workspace }}:/data tunathu/mirror-web:latest npm ci
-          docker run --user "$(id -u):$(id -g)" --env JEKYLL_ENV="production" -v ${{ github.workspace }}:/data tunathu/mirror-web:latest jekyll build --future
+          docker run --user "$(id -u):$(id -g)" --env JEKYLL_ENV="production" --env VISUALIZER="true" -v ${{ github.workspace }}:/data tunathu/mirror-web:latest jekyll build --future
       - name: Upload artifacts
         if: ${{ github.ref == 'refs/heads/master' }}
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-pages-artifact@v3
         with:
           path: '_site/'
           name: 'gh-pages-${{github.sha}}'
@@ -30,6 +26,11 @@ jobs:
         with:
           path: '_site'
           name: gh-pages-${{github.sha}}
+      - name: Upload size analysis
+        uses: actions/upload-artifact@v4
+        with:
+          path: '_stats.html'
+          name: size-stats-${{github.sha}}
 
   deploy:
     runs-on: ubuntu-latest
@@ -44,8 +45,8 @@ jobs:
     if: ${{ github.ref == 'refs/heads/master' }}
     steps:
       - name: Setup Pages
-        uses: actions/configure-pages@v3
+        uses: actions/configure-pages@v5
       - name: Deploy to GitHub Pages
-        uses: actions/deploy-pages@v1
+        uses: actions/deploy-pages@v4
         with:
           artifact_name: 'gh-pages-${{github.sha}}'
