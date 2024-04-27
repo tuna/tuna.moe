@@ -12,8 +12,8 @@ jobs:
       - name: Build the site in the tunathu/mirror-web container
         run: |
           echo "Working on ref ${{github.ref}}"
-          docker run --user "$(id -u):$(id -g)" --env NODE_ENV=production --env HOME=/tmp -v ${{ github.workspace }}:/data tunathu/mirror-web:latest npm ci
-          docker run --user "$(id -u):$(id -g)" --env JEKYLL_ENV="production" --env VISUALIZER="true" -v ${{ github.workspace }}:/data tunathu/mirror-web:latest jekyll build --future
+          docker run --user "$(id -u):$(id -g)" --env NODE_ENV=production --env HOME=/tmp -v ${{ github.workspace }}:/data tunathu/mirror-web:latest sh -c "npm ci; npm i rollup-plugin-visualizer"
+          docker run --user "$(id -u):$(id -g)" --env JEKYLL_ENV=production --env VISUALIZER=true -v ${{ github.workspace }}:/data tunathu/mirror-web:latest jekyll build --future
       - name: Upload artifacts
         if: ${{ github.ref == 'refs/heads/master' }}
         uses: actions/upload-pages-artifact@v3
