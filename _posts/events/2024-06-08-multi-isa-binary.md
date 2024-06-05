@@ -1,7 +1,7 @@
 ---
 layout: event
 title: "金枪鱼之夜：支持多种 ISA 扩展的二进制背后的秘密"
-date: 2024-06-01
+date: 2024-06-08
 time: 19:00-21:00
 place: 三教 3104
 author: Meow-meow Liu
