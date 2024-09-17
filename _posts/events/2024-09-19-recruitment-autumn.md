@@ -3,7 +3,7 @@ layout: event
 title: "2024 年秋季学期社团联合招新（百团大战）"
 date: 2024-09-19
 time: / 20 中午及傍晚
-place: 紫操北侧 H4 摊位
+place: 紫操北侧 H2 摊位
 author: Meow-meow Liu
 categories:
   - event
