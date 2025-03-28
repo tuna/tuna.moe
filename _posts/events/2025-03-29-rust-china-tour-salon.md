@@ -17,8 +17,8 @@ TUNA 将于 3 月 29 日（第六周周六）晚上与 Rust China Tour 合办一
 <style>
 blockquote {
   padding: 10px 15px;
-  box-shadow: rgba(0,0,0,.3) 0 2px 3px;
-  border-left: rgba(0,0,0,.3) 10px solid;
+  box-shadow: rgba(var(--bs-body-color-rgb).3) 0 2px 3px;
+  border-left: rgba(var(--bs-body-color-rgb),.3) 10px solid;
 }
 
 blockquote strong {
