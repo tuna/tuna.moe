@@ -3,7 +3,7 @@ layout: event
 title: "金枪鱼之夜：计算机色彩理论入门不靠谱科普 [更新时间]"
 date: 2025-04-19
 time: 19:00-21:00
-place: 待定
+place: 三教 1103
 author: Meow-meow
 categories:
   - event
@@ -14,6 +14,8 @@ tags:
 ---
 
 更新：由于大风天气影响，本次活动推迟一周至2025年4月19日（第九周周六）举行。
+
+更新 04/13：地点已确定，三教 1103 与各位不见不散。
 
 ---
 
@@ -26,7 +28,7 @@ tags:
 * 主讲人：申奥
 * 时间：**2025/04/19（校历**第九周**周六） 19:00** UTC +08:00
 * 活动形式：线下 + 线上会议 + 直播
-  * 地点：待定
+  * 地点：三教 **1103**
   * 线上会议：[腾讯会议 343-751-498 密码 250419](https://meeting.tencent.com/dm/zEkWL3u8Gabh)
   * 直播链接：[https://youtube.com/live/t5s9A\_LEGxw](https://youtube.com/live/t5s9A_LEGxw)
 
