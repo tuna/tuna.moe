@@ -6,6 +6,7 @@ time: 19:00-21:00
 place: 三教 1200
 author: Meow-meow Liu
 video: https://mirrors.tuna.tsinghua.edu.cn/tuna/tunight/2024-10-12-cpp-object/
+slides: https://mirrors.tuna.tsinghua.edu.cn/tuna/tunight/2024-10-12-cpp-object/slide.pptx
 categories:
   - event
 tags:

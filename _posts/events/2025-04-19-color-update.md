@@ -6,6 +6,7 @@ time: 19:00-21:00
 place: 三教 1103
 author: Meow-meow
 video: https://mirrors.tuna.tsinghua.edu.cn/tuna/tunight/2025-04-19-color/
+slides: https://mirrors.tuna.tsinghua.edu.cn/tuna/tunight/2025-04-19-color/slide.pdf
 categories:
   - event
 tags:
