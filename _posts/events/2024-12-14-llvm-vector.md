@@ -5,6 +5,8 @@ date: 2024-12-14
 time: 19:00-21:00
 place: 三教 1102
 author: Meow-meow
+slides: https://inclyc.github.io/talk-simd-llvm/
+video: https://mirrors.tuna.tsinghua.edu.cn/tuna/tunight/2024-12-14-llvm-vector/
 categories:
   - event
 tags:

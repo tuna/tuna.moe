@@ -5,6 +5,8 @@ date: 2025-03-08
 time: 19:00-21:00
 place: 三教 1103
 author: Meow-meow Liu
+slides: https://mirrors.tuna.tsinghua.edu.cn/tuna/tunight/2025-03-08-text-rendering/slide.pdf
+video: https://mirrors.tuna.tsinghua.edu.cn/tuna/tunight/2025-03-08-text-rendering/
 categories:
   - event
 tags:

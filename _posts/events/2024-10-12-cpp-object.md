@@ -5,6 +5,7 @@ date: 2024-10-12
 time: 19:00-21:00
 place: 三教 1200
 author: Meow-meow Liu
+video: https://mirrors.tuna.tsinghua.edu.cn/tuna/tunight/2024-10-12-cpp-object/
 categories:
   - event
 tags:
