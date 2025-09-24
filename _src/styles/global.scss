@@ -215,3 +215,20 @@ $h7-font-size: bs.$font-size-base * 0.8;
 .fs-7 {
   font-size: $h7-font-size !important;
 }
+
+/* Override navbar positioning */
+.navbar-collapse {
+  flex: 0;
+}
+
+.navbar-spring {
+  display: block;
+  flex: 1;
+}
+
+#join-button-nav {
+  margin-right: 10px;
+  @include bs.media-breakpoint-up(lg) {
+    margin-right: 20px;
+  }
+}

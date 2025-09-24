@@ -5,6 +5,15 @@
       <a class="navbar-brand" href="/"><!--
    -->{% include pic.html name="logo-small" %} {{ site.brand }}</a>
     </div>
+
+    <div class="navbar-spring"></div>
+
+    {% if page.permalink == "/" %}
+    <div id="join-button-nav" class="d-none d-sm-block">
+      <a class="btn btn-outline-success" href="https://join.tuna.tsinghua.edu.cn/"> 加入TUNA / Join Us </a>
+    </div>
+    {% endif %}
+
     <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       {% fa_svg fas.fa-bars %}
     </button>
