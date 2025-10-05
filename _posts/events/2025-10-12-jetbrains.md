@@ -37,7 +37,7 @@ tags:
 - 活动时间： 2025 年 10 月 12 日（校历第四周**周日**）14:00 - 17:30 UTC+8
 - 线下参与地点：三教 2101
   - 因场地规模限制，线下参与的同学请填写问卷报名： [https://wenjuan.tsinghua.edu.cn/s/UZBZJv1W/survey](https://wenjuan.tsinghua.edu.cn/s/UZBZJv1W/survey)
-  - 校外同学准备如校请联系 xiaoyi.liu AT tuna.tsinghua.edu.cn 或者在技术群中本活动有关的通知。
+  - 校外同学准备入校请联系 xiaoyi.liu AT tuna.tsinghua.edu.cn 或者在技术群中本活动有关的通知。
 - 线上参与：
   - YouTube 直播： [https://youtube.com/live/XX6pg\_Gsw\_E](https://youtube.com/live/XX6pg_Gsw_E?feature=share)
   - 因活动形式，本次活动不提供线上会议
