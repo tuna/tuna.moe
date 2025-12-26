@@ -3,7 +3,7 @@ layout: event
 title: "金枪鱼之夜：Avrova Donz 与九条命的镜像站架构艺术"
 date: 2025-12-28
 time: 19:00-21:00
-place: 未定
+place: 三教 1102
 author: Meow-meow
 categories:
   - event
@@ -35,6 +35,6 @@ Avrova Donz 将以她独特的四耳猫咪视角，解释为什么「能节省�
 * 主讲人：Avrova Donz
 * 时间：**2025/12/28（校历第十五周周日） 19:00** UTC +08:00
 * 活动形式：线下 + 线上会议 + 直播
-  * 地点：暂定三教 1102，请关注本页面后续更新
+  * 地点：三教 1102
   * 线上会议：[腾讯会议 695-376-640 密码 251228](https://meeting.tencent.com/dm/F8N4KhdgbF1f)
   * 直播链接：[https://youtube.com/live/b5Ro1zETHc4](https://youtube.com/live/b5Ro1zETHc4)
