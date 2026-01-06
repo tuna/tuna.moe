@@ -4,6 +4,8 @@ title: "金枪鱼之夜：实验物理垃圾佬的高性能 GPU 集群"
 date: 2025-12-27
 time: 19:00-21:00
 place: 三教 1102
+slides: https://mirrors.tuna.tsinghua.edu.cn/tuna/tunight/2025-12-27-gpu-cluster/slide.pdf
+video: https://mirrors.tuna.tsinghua.edu.cn/tuna/tunight/2025-12-27-gpu-cluster/
 author: Meow-meow
 categories:
   - event

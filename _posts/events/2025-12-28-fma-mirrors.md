@@ -4,6 +4,8 @@ title: "金枪鱼之夜：Avrova Donz 与九条命的镜像站架构艺术"
 date: 2025-12-28
 time: 19:00-21:00
 place: 三教 1102
+slides: https://mirrors.tuna.tsinghua.edu.cn/tuna/tunight/2025-12-28-fma-mirrors/slide.pdf
+video: https://mirrors.tuna.tsinghua.edu.cn/tuna/tunight/2025-12-28-fma-mirrors/
 author: Meow-meow
 categories:
   - event
