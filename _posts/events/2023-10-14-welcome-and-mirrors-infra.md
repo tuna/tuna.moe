@@ -5,6 +5,7 @@ date: 2023-10-14
 time: 19:00-21:00
 place: 旧经管报告厅
 author: Meow-meow Liu
+youtube: https://www.youtube.com/watch?v=_xFuJApjFh4
 categories:
   - event
 tags:

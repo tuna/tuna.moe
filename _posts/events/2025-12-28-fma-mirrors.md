@@ -6,6 +6,7 @@ time: 19:00-21:00
 place: 三教 1102
 slides: https://mirrors.tuna.tsinghua.edu.cn/tuna/tunight/2025-12-28-fma-mirrors/slide.pdf
 video: https://mirrors.tuna.tsinghua.edu.cn/tuna/tunight/2025-12-28-fma-mirrors/
+youtube: https://youtube.com/live/b5Ro1zETHc4
 author: Meow-meow
 categories:
   - event

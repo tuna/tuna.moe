@@ -5,6 +5,7 @@ date: 2024-03-17
 time: 18:30-21:30
 place: 北京大学极客实验室
 author: Meow-meow Liu
+youtube: https://youtube.com/live/TOJdlx2TbYk
 categories:
   - event
 tags:

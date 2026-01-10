@@ -7,6 +7,7 @@ place: 三教 1201
 author: Yipeng Liu
 slides: https://mirrors.tuna.tsinghua.edu.cn/tuna/tunight/2022-10-22-hacking-radio/slides.pdf
 video: https://mirrors.tuna.tsinghua.edu.cn/tuna/tunight/2022-10-22-hacking-radio/video.mp4
+youtube: https://youtu.be/W4izBNfpO-Q
 categories:
   - event
 tags:

@@ -4,6 +4,7 @@ title: "JetBrains x TUNA 技术交流开放日专题讲座"
 date: 2025-10-12
 time: 14:00 - 17:30
 place: 三教 2101
+youtube: https://youtube.com/live/XX6pg_Gsw_E
 author: Meow-meow Liu
 categories:
   - event

@@ -7,6 +7,7 @@ place: 三教 1102
 author: Yipeng Liu
 slides: https://mirrors.tuna.tsinghua.edu.cn/tuna/tunight/2023-03-18-enzian-efri/slides.pdf
 video: https://mirrors.tuna.tsinghua.edu.cn/tuna/tunight/2023-03-18-enzian-efri/video.mp4
+youtube: https://youtu.be/kmY5a0a3gbY
 categories:
   - event
 tags:

@@ -6,6 +6,7 @@ time: 19:00-21:00
 place: 三教 1102
 slides: https://mirrors.tuna.tsinghua.edu.cn/tuna/tunight/2025-12-27-gpu-cluster/slide.pdf
 video: https://mirrors.tuna.tsinghua.edu.cn/tuna/tunight/2025-12-27-gpu-cluster/
+youtube: https://youtube.com/live/HBBpon7b5wE
 author: Meow-meow
 categories:
   - event

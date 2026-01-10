@@ -7,6 +7,7 @@ place: 三教 1103
 author: Meow-meow Liu
 slides: https://mirrors.tuna.tsinghua.edu.cn/tuna/tunight/2025-03-08-text-rendering/slide.pdf
 video: https://mirrors.tuna.tsinghua.edu.cn/tuna/tunight/2025-03-08-text-rendering/
+youtube: https://youtube.com/live/ei58B1QiuYU
 categories:
   - event
 tags:

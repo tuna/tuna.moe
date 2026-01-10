@@ -7,6 +7,7 @@ place: 刘卿楼 104
 author: Yipeng Liu
 slides: https://mirrors.tuna.tsinghua.edu.cn/tuna/tunight/2023-03-26-disk-array/slides.pdf
 video: https://mirrors.tuna.tsinghua.edu.cn/tuna/tunight/2023-03-26-disk-array/video.mp4
+youtube: https://youtu.be/QNn2s0z49cg
 categories:
   - event
 tags:

@@ -5,6 +5,7 @@ date: 2024-06-08
 time: 19:00-21:00
 place: 三教 3104
 author: Meow-meow Liu
+youtube: https://youtube.com/live/s78ynPBsTtY
 categories:
   - event
 tags:

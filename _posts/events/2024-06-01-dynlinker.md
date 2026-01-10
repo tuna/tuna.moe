@@ -7,6 +7,7 @@ place: 三教 3104
 author: Meow-meow Liu
 slides: https://mirrors.tuna.tsinghua.edu.cn/tuna/tunight/2024-06-01-dynlinker/slide.pdf
 video: https://mirrors.tuna.tsinghua.edu.cn/tuna/tunight/2024-06-01-dynlinker/video.mp4
+youtube: https://youtube.com/live/sb9pSRwVgf4
 categories:
   - event
 tags:

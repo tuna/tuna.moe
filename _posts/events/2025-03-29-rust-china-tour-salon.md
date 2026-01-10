@@ -5,6 +5,7 @@ date: 2025-03-29
 time: 19:00-21:30
 place: 等同 Timeless 咖啡 + 线上
 author: Meow-meow Liu
+youtube: https://youtube.com/live/l-lfbvEOxlI
 categories:
   - event
 tags:

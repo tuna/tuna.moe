@@ -7,6 +7,7 @@ place: 三教 1103
 author: Meow-meow
 video: https://mirrors.tuna.tsinghua.edu.cn/tuna/tunight/2025-04-19-color/
 slides: https://mirrors.tuna.tsinghua.edu.cn/tuna/tunight/2025-04-19-color/slide.pdf
+youtube: https://youtube.com/live/t5s9A_LEGxw
 categories:
   - event
 tags:

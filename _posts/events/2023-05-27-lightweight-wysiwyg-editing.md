@@ -7,6 +7,7 @@ place: 三教 3104
 author: Yipeng Liu
 slides: https://mirrors.tuna.tsinghua.edu.cn/tuna/tunight/2023-05-27-lightweight-wysiwyg-editing/slides.pdf
 video: https://mirrors.tuna.tsinghua.edu.cn/tuna/tunight/2023-05-27-lightweight-wysiwyg-editing/video.mp4
+youtube: https://youtu.be/1RFHgnokrs0
 categories:
   - event
 tags:

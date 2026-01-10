@@ -6,6 +6,7 @@ time: 19:00 - 21:00
 place: 三教 3200（三段）
 author: Jason Lau
 video: https://mirrors.tuna.tsinghua.edu.cn/tuna/tunight/2017-04-01-TeX-workshop/video.mp4
+youtube: https://youtu.be/fysg1IaCq2s
 categories:
   - event
 tags:

@@ -7,6 +7,7 @@ place: 三教 1102
 author: Meow-meow
 slides: https://inclyc.github.io/talk-simd-llvm/
 video: https://mirrors.tuna.tsinghua.edu.cn/tuna/tunight/2024-12-14-llvm-vector/
+youtube: https://youtube.com/live/ECxWLb8aVtY
 categories:
   - event
 tags:
