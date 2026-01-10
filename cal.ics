@@ -49,10 +49,10 @@ LAST-MODIFIED:{{event.date | date: "%Y%m%dT%H%M%SZ"}}
 {% include ical-split-line.html content=uid -%}
 {% assign desc_lines = event.excerpt | split: "
 " -%}
-{% capture desc %}DESCRIPTION:{% for line in desc_lines %}{{line | strip}} {% endfor %}<p class="cal-abs-url"><a href="{{ event.url | absolute_url }}">{{ event.url | absolute_url }}</a></p>{% endcapture -%}
+{% capture desc %}DESCRIPTION:<p class="cal-abs-url"><a href="{{ event.url | absolute_url }}">{{ event.url | absolute_url }}</a></p>{% for line in desc_lines %}{{line | strip}} {% endfor %}{% endcapture -%}
 {% include ical-split-line.html content=desc -%}
 LOCATION:{{event.place}}
-SEQUENCE:0
+SEQUENCE:{{ site.time | date: "%s" }}
 STATUS:CONFIRMED
 TRANSP:OPAQUE
 END:VEVENT
