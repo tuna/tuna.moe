@@ -17,7 +17,7 @@ GEM
     execjs (2.9.1)
     ffi (1.16.3)
     forwardable-extended (2.6.0)
-    google-protobuf (3.25.5)
+    google-protobuf (3.23.4)
     htmlcompressor (0.4.0)
     http_parser.rb (0.8.0)
     i18n (1.14.4)
@@ -71,7 +71,7 @@ GEM
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (5.0.5)
-    rack (3.1.18)
+    rack (3.1.20)
     rack-proxy (0.7.7)
       rack
     rake (13.2.1)
