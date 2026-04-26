@@ -42,4 +42,5 @@ Vanilla OS 不仅是一个不可变发行版，更是对“操作系统应该是
 * 活动形式：线下 + 线上会议 + 直播
   * 地点：自强科技楼五号楼 5412。本次活动将在自强科技楼的新教室中进行。五号楼是正中间那栋楼，进门后右转有电梯。
   * 线上会议：[腾讯会议 929-163-774 密码 260321](https://meeting.tencent.com/dm/G4uMTdMNyB5Q)
-  * 直播链接：[https://youtube.com/live/9g\_r66ZsPyk](https://youtube.com/live/9g_r66ZsPyk)
+  * YouTube 录像：[https://www.youtube.com/watch?v=O7vxmu\_gSDU](https://www.youtube.com/watch?v=O7vxmu_gSDU)
+  * Bilibili 录像：[BV1nAoeBBEUr](https://www.bilibili.com/video/BV1nAoeBBEUr)
