@@ -4,6 +4,9 @@ title: "金枪鱼之夜：迎新 & Vanilla OS 3 - Immutable and Reproducible Ope
 date: 2026-03-21
 time: 19:00-21:00
 place: 自强科技楼五号楼 5412
+slides: https://mirrors.tuna.tsinghua.edu.cn/tuna/tunight/2026-03-21-vanillaos/slide.pdf
+video: https://mirrors.tuna.tsinghua.edu.cn/tuna/tunight/2026-03-21-vanillaos/video.mp4
+youtube: https://www.youtube.com/watch?v=O7vxmu_gSDU
 author: Meow-meow
 categories:
   - event
